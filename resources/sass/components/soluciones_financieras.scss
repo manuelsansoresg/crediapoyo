@@ -1,0 +1,146 @@
+.soluciones-financieras {
+
+  &__fondo1 {
+    background: url("/img/soluciones_financieras/Foto_1_SolucionesFinacieras.png") center center;
+    width: 100%;
+    height: 90vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+  }
+
+  &__content {
+    position: absolute;
+    right: 9%;
+    bottom: 37%;
+  }
+
+  &__title {
+    font-size: 3em;
+    color: #2B2B2B;
+    font-family: "Campton-Book";
+    line-height: 10px;
+  }
+
+  &__subtitle {
+    display: block;
+    font-family: "Hollaboi";
+    font-size: 11em;
+    line-height: 128px;
+    color: #003F8E;
+  }
+
+  &__subtitle2 {
+    display: block;
+    font-size: 2em;
+    color: #2B2B2B;
+    font-family: "Campton-Medium";
+    margin-left: 23%;
+  }
+
+  &__icons{
+
+    height: 107px;
+  }
+
+  &__text-icons {
+    font-family: "Campton-Medium";
+    font-size: 1em;
+    color: $gray-two;
+    margin-top: 5px;
+  }
+
+  &__ventajas-left{
+    background: url("/img/Formulario.png") center center;
+    width: 100%;
+    height: 60vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  &__ventajas{
+    background-color: $blue-five;
+  }
+
+  &__title-ventajas{
+    font-family: "Hollaboi";
+    font-size: 4em;
+    color: $green-menu;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+  &__ul-ventajas{
+    font-family: "Campton-Book";
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+  }
+
+  &__ul-ventajas li{
+    list-style-image: url('/img/donde_estamos/Circulo.png');
+    font-family: 'Campton-Book';
+    font-size: 1.1em;
+    color: $white;
+    padding-left: 0px;
+    padding-top: 3px;
+    height: 48px;
+    margin-left: 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+
+
+
+}
+
+.requisitos{
+  background-color: $gray-five;
+  &__icon{
+    width: 30px;
+
+  }
+
+  &__title{
+    font-family: 'Campton-Bold';
+    color: $blue-five;
+    font-size: 2em;
+  }
+
+  &__ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+  }
+  &__ul li{
+    list-style-image: url('/img/soluciones_financieras/Bullet.png');
+    font-family: 'Campton-Medium';
+    font-size: 0.9em;
+    color: $gray-two;
+    padding-left: 0px;
+    padding-top: 3px;
+    height: 48px;
+    margin-left: 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+
+
+  &__documentacion-title{
+    color: $green3;
+    font-family: 'Campton-Bold';
+  }
+
+  &__li-italic{
+    font-family: 'Campton-Medium';
+    font-style: italic;
+
+  }
+}
+

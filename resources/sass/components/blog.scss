@@ -1,0 +1,62 @@
+.blog{
+  min-height: 100vh;
+  &__icon{
+    width: 55px;
+  }
+  &__title{
+    font-family: 'Campton-Bold';
+    color: $blue;
+    font-size: 2.50rem;
+  }
+
+  &__card-content-title{
+    position:absolute;
+    bottom:5px;
+    padding: 0px 20px;
+  }
+
+  &__card-title{
+    font-family: 'Campton-Bold';
+    font-size: 2.20rem;
+    line-height: 36px;
+
+  }
+
+
+  &__content-text{
+    height: 160px;
+  }
+
+  &__content-small-text{
+    /*height: 155px;*/
+  }
+
+  &__content-small2-text{
+    min-height:  126px;
+  }
+
+  &__card-title2{
+    color: $blue;
+    font-family: 'Campton-Bold';
+  }
+  &__card-title3{
+    color: $green-menu;
+    font-family: 'Campton-Bold';
+  }
+}
+
+
+/* responsive */
+@include media-breakpoint-down(sm) {
+  .blog{
+    &__icon{
+      width: 40px;
+    }
+    &__title{
+      font-size: 1.8em;
+    }
+    &__content-text{
+      font-size: 11px;
+    }
+  }
+}

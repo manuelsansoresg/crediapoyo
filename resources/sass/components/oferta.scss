@@ -1,0 +1,11 @@
+.oferta{
+  background-color: $blue;
+  &__title{
+    font-family: 'Campton-Bold';
+    color: $green-menu;
+    font-size: 2em;
+  }
+  &__description{
+    font-family: 'Campton-Light';
+  }
+}

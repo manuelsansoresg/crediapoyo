@@ -1,0 +1,66 @@
+<?php
+
+use App\Branch;
+use App\State;
+use Illuminate\Database\Seeder;
+
+class EstadoSucursalSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $estado = new State();
+        $estado->name = 'Chiapas';
+        $estado->save();
+
+        $estado = new State();
+        $estado->name = 'Tamaulipas';
+        $estado->save();
+
+        $estado = new State();
+        $estado->name = 'Michoacán';
+        $estado->save();
+
+        /* sucursales */
+        $sucursal = new Branch();
+        $sucursal->state_id = 1;
+        $sucursal->sucursal = 'Gobierno';
+        $sucursal->save();
+
+        $sucursal = new Branch();
+        $sucursal->state_id = 1;
+        $sucursal->sucursal = 'Salud';
+        $sucursal->save();
+
+        $sucursal = new Branch();
+        $sucursal->state_id = 1;
+        $sucursal->sucursal = 'Policias';
+        $sucursal->save();
+
+
+        $sucursal = new Branch();
+        $sucursal->state_id = 2;
+        $sucursal->sucursal = 'Gobierno';
+        $sucursal->save();
+
+        $sucursal = new Branch();
+        $sucursal->state_id = 2;
+        $sucursal->sucursal = 'Salud';
+        $sucursal->save();
+
+        $sucursal = new Branch();
+        $sucursal->state_id = 3;
+        $sucursal->sucursal = 'Policias';
+        $sucursal->save();
+
+        $sucursal = new Branch();
+        $sucursal->state_id = 3;
+        $sucursal->sucursal = 'Michoacán';
+        $sucursal->save();
+
+    }
+}

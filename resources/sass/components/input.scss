@@ -1,0 +1,25 @@
+.form-control{
+  background-color: $gray-dark;
+  border-radius: 20px;
+}
+
+.form-control:focus{
+  background-color: $gray-dark;
+  border: 0px;
+}
+
+::placeholder {
+  color: $white !important;
+  font-family: 'Campton-Light' !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $white !important;
+  font-family: 'Campton-Light' !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $white !important;
+  font-family: 'Campton-Light' !important;
+}

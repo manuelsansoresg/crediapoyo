@@ -1,0 +1,15 @@
+.barra-contacto{
+  background-color: $blue;
+  color: white;
+  padding: 20px 0px;
+  &__title{
+    font-size: 1.4em;
+    letter-spacing: 3px;
+    color: $green2;
+    font-family: 'Campton-Medium';
+  }
+  a{
+    color: $green2;
+    font-family: 'Campton-Light';
+  }
+}

@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'fonts';
+@import 'components/nav';
+@import 'components/carousel';
+@import 'components/button';
+@import 'components/solicita_credito';
+@import 'components/input';
+@import 'components/oferta';
+@import 'components/blog'; //blog en landing
+@import 'components/card';
+@import 'components/footer';
+@import 'components/barra_contacto';
+@import 'components/donde_estamos';
+@import 'components/soluciones_financieras';
+@import 'components/cotizador';
+@import 'components/contacto';
+@import 'components/afiliate';
+@import 'components/section_blog';
+
+
+.bg-blue{
+    background-color: $blue;
+}
+
+.color-blue3{
+    color: $blue-tree;
+    font-family: 'Campton-Bold';
+}
+
+.link-green{
+    font-family: 'Campton-Bold';
+    cursor: pointer;
+    color: $green-link !important;
+}
+.link-green:hover{
+    color: $green-menu !important;
+}
+.text-success{
+    color: $green-carousel !important;
+}
+
+
+

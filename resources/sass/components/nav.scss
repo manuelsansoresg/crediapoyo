@@ -1,0 +1,57 @@
+.nav-item a{
+  font-family: 'Campton-Medium' !important;
+  color: $green-menu !important;
+
+}
+
+.nav-item-border-two{
+  border-right: 1px solid white;
+  height: 50px;
+}
+
+.nav-item-border-one{
+  border-right: 1px solid white;
+  height: 40px;
+}
+
+/*.navbar-nav   .nav-item:last-child a{
+  border-right: none;
+}*/
+
+.nav-item a:hover{
+  color: $white !important;
+}
+
+.nav-item{
+  text-align: center;
+  width: 130px;
+}
+
+.logo{
+  width: 200px;
+  padding: 0px 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  /*padding-left: 2rem;*/
+}
+
+/* responsive */
+@include media-breakpoint-down(sm) {
+  .nav-item-border-two{
+    border: none;
+    height: auto;
+  }
+
+  .nav-item-border-one{
+    border: none;
+    height: auto;
+  }
+
+  .nav-item{
+    width: 100%;
+    a{
+      text-decoration: underline $green-menu;
+    }
+  }
+}

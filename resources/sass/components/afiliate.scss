@@ -1,0 +1,30 @@
+.afiliate{
+  &__icon{
+    width: 30px;
+  }
+  &__title{
+    font-family: 'Campton-Bold';
+    color: $blue-five;
+    font-size: 2em;
+  }
+
+  &__ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+  }
+  &__ul li{
+    list-style-image: url('/img/soluciones_financieras/Bullet.png');
+    font-family: 'Campton-Medium';
+    font-size: 0.9em;
+    color: $gray-two;
+    padding-left: 0px;
+    padding-top: 3px;
+    height: 48px;
+    margin-left: 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+
+}

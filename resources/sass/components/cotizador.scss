@@ -1,0 +1,81 @@
+.cotizador{
+  &__title{
+    font-family: 'Campton-Bold';
+    color: $blue-tree;
+    font-size: 2.6em;
+  }
+
+  &__subtitle{
+    font-family: 'Campton-Medium';
+    font-size: 1.5em;
+  }
+
+  &__icon{
+    width: 40px;
+  }
+
+  .text-muted{
+    font-family: 'Campton-Book';
+  }
+
+  &__cantidad{
+    color: $green4;
+    font-family: 'Campton-Bold';
+    line-height: 13px;
+    font-size: 2.2em;
+  }
+
+  &__btn{
+    background-color: $green-carousel;
+    border: none ;
+    padding: 0.375rem 2rem;
+  }
+
+  &__btn:hover{
+    background-color: $green-menu;
+  }
+
+  &__title-footer{
+    font-family: 'Campton-Book';
+    color: $gray-six;
+    font-size: 1.8em;
+  }
+
+  &__title-footer-sub{
+    font-family: 'Campton-Book';
+    color: $gray-two;
+    font-size: 1.2em;
+  }
+
+  &__info{
+    font-family: 'Campton-Book';
+    font-size: 1.2em;
+    color: $gray-six;
+  }
+  &__range{
+    background: $gray-seven;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    padding: 15px 10px;
+  }
+}
+
+.rangeslider{
+  background-color: $gray-six !important;
+}
+.rangeslider__handle {
+  background-color: $green-carousel !important;
+  width: 15px !important;
+  height: 15px !important;
+  margin-top: 5px;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.rangeslider--horizontal {
+  height: 4px !important;
+}
+
+.rangeslider__handle:after {
+  content: unset !important;
+}
