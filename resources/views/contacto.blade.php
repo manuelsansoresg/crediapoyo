@@ -6,9 +6,9 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="{{ asset('img/contacto/Foto_1_Contacto.png') }}" class="d-block w-100" alt="...">
-                <div class="carousel-caption carousel-caption-contacto  d-none d-md-block">
+                <div class="carousel-caption carousel-caption-contacto ">
                     <span class="carousel-caption-contacto__title">Contacto</span>
-                    <div class="carousel-caption-contacto__description mt-n4">
+                    <div class="carousel-caption-contacto__description mt-n2 mt-md-n4">
                         <p>Ahora que tú nos conoces, queremos conocerte a ti para empezar a hacer juntos tus sueños realidad. Por ello estamos listos para recibirte en cualquiera de nuestras sucursales.</p>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                     <img class="contacto__icon mt-n3" src="{{ asset('img/contacto/Ubicacion.png') }}" alt="">
                     <span class="contacto__title ">Chiapas</span>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <ul class="contacto__ul">
                         <li>
                             Tuxtla: Centro de Negocios Plaza Mirador oficina 4, Libramiento Norte Poniente, Col. Miravalle, Tuxtla, Gtz. Chiapas C.P. 29039 <span class="color-blue3">Teléfono: 01-961-617-5204</span>
@@ -45,7 +45,7 @@
                     <img class="contacto__icon mt-n3" src="{{ asset('img/contacto/Ubicacion.png') }}" alt="">
                     <span class="contacto__title ">Tamaulipas</span>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <ul class="contacto__ul">
                         <li>
                             Cd. Victoria: Calle Alberto Carrera Torres esq. con Matías S. Canales 513 Col. Centro, Cd. Victoria, Tamps C.P. 87000 <span class="color-blue3">Teléfono: 01-834-186-5574 y 01-834-185-3728</span>
@@ -65,7 +65,7 @@
                     <img class="contacto__icon mt-n3" src="{{ asset('img/contacto/Ubicacion.png') }}" alt="">
                     <span class="contacto__title ">Michoacán</span>
                 </div>
-                <div class="col-8">
+                <div class="col-12 col-md-8">
                     <ul class="contacto__ul">
                         <li>
                             Morelia y Zamora: Av. Siervo de la Nación 721, Col. Lomas del Valle, Morelia, Michoacán C.P. 58170 <span class="color-blue3"> Teléfono: 01-443-299-8459 </span>

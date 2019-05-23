@@ -22,3 +22,59 @@
   }
 
 }
+
+.blog-show{
+
+  &__title{
+    font-family: 'Campton-Book';
+    color: $white;
+    font-size: 2.7em;
+  }
+
+  &__top-title{
+    margin-top: 131px;
+  }
+
+  &__subtitle{
+    font-family: 'Hollaboi';
+    color: $green-menu;
+    font-size: 6em;
+    font-size: 16em;
+    margin-top: -77px;
+    letter-spacing: 2px;
+  }
+
+  &__content{
+    margin-top: -158px;
+    background-color: $white;
+    min-height: 100vh;
+    padding: 30px 100px;
+  }
+
+}
+
+
+/************************* responsivo *****************************/
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+@include media-breakpoint-down(sm) {
+
+  .blog-show{
+
+    &__title{
+      font-size: 2em;
+    }
+    &__subtitle{
+      font-size: 10em;
+      margin-top: -66px;
+    }
+    &__content{
+      width: 90%;
+      margin-top: -195px;
+      padding: 25px 20px;
+      min-height: 50vh;
+    }
+  }
+}

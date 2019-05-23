@@ -10925,6 +10925,48 @@ a.text-dark:focus {
   height: 96px;
 }
 
+/************************* responsivo *****************************/
+
+@media (max-width: 767.98px) {
+  .carousel-caption-contacto {
+    left: 5%;
+    bottom: -12%;
+  }
+
+  .carousel-caption-contacto__title {
+    font-size: 3em;
+  }
+
+  .carousel-caption-contacto__description {
+    font-size: 9px;
+    width: 59%;
+  }
+
+  .carousel-caption-blog {
+    left: 45%;
+    bottom: -6%;
+  }
+
+  .carousel-caption-blog__title {
+    font-size: 0.7em;
+  }
+
+  .carousel-caption-blog__subtitle {
+    font-size: 3em;
+    margin-top: -16px;
+  }
+
+  .carousel-caption-blog__description {
+    width: 94%;
+    font-size: 9px;
+  }
+
+  .carousel-caption-blog__btn-carousel {
+    padding: 5px 0.75rem;
+    line-height: 15px;
+  }
+}
+
 .btn-primary {
   font-family: "Campton-Medium";
 }
@@ -10938,7 +10980,7 @@ a.text-dark:focus {
 .solicita-credito__title {
   font-family: "Campton-Bold";
   color: #003f8E;
-  font-size: 2.6rem;
+  font-size: 2.5rem;
 }
 
 .solicita-credito__subtitle {
@@ -10946,10 +10988,14 @@ a.text-dark:focus {
   font-size: 0.6em;
   font-family: "Campton-Book";
   color: #00CC3B;
-  font-size: 1.7em;
+  font-size: 1.6em;
 }
 
-/* responsive */
+.solicita-credito__icon {
+  width: 60px;
+}
+
+/************************* responsivo *****************************/
 
 @media (max-width: 767.98px) {
   .solicita-credito__title {
@@ -10958,6 +11004,10 @@ a.text-dark:focus {
 
   .solicita-credito__subtitle {
     font-size: 11px;
+  }
+
+  .solicita-credito__icon {
+    width: 40px;
   }
 }
 
@@ -10969,6 +11019,14 @@ a.text-dark:focus {
 .form-control:focus {
   background-color: #A2A2A2;
   border: 0px;
+}
+
+.form-control-cotizador {
+  background-color: #EEEEEE;
+}
+
+.form-control-cotizador:focus {
+  background-color: #EEEEEE;
 }
 
 ::-webkit-input-placeholder {
@@ -11219,6 +11277,33 @@ a.text-dark:focus {
   margin-bottom: 0;
 }
 
+/************************* responsivo *****************************/
+
+@media (max-width: 767.98px) {
+  .donde-estamos__title {
+    font-size: 2em;
+    line-height: 1px;
+  }
+
+  .donde-estamos__subtitle {
+    font-size: 2em;
+    line-height: 1px;
+  }
+
+  .donde-estamos__content-left {
+    margin-left: -32%;
+    margin-top: 8%;
+  }
+
+  .donde-estamos__ul-border-left {
+    border-left: none;
+  }
+
+  .donde-estamos__ul-border-right {
+    border-right: none;
+  }
+}
+
 .soluciones-financieras__fondo1 {
   background: url("/img/soluciones_financieras/Foto_1_SolucionesFinacieras.png") center center;
   width: 100%;
@@ -11301,7 +11386,7 @@ a.text-dark:focus {
   color: #fff;
   padding-left: 0px;
   padding-top: 3px;
-  height: 48px;
+  /*height: 48px;*/
   margin-left: 0;
   margin-top: 4px;
   margin-bottom: 0;
@@ -11335,7 +11420,7 @@ a.text-dark:focus {
   color: #363636;
   padding-left: 0px;
   padding-top: 3px;
-  height: 48px;
+  /*height: 48px;*/
   margin-left: 0;
   margin-top: 4px;
   margin-bottom: 0;
@@ -11349,6 +11434,54 @@ a.text-dark:focus {
 .requisitos__li-italic {
   font-family: "Campton-Medium";
   font-style: italic;
+}
+
+/************************* responsivo *****************************/
+
+@media (max-width: 767.98px) {
+  .soluciones-financieras__fondo1 {
+    height: 40vh;
+  }
+
+  .soluciones-financieras__content {
+    height: 27vh;
+    align-items: center;
+    display: flex;
+    /*justify-content: end;*/
+    flex-direction: column;
+    right: 3%;
+    bottom: 15%;
+  }
+
+  .soluciones-financieras__title {
+    font-size: 1.2em;
+  }
+
+  .soluciones-financieras__subtitle {
+    font-size: 4em;
+    line-height: 58px;
+  }
+
+  .soluciones-financieras__subtitle2 {
+    font-size: 0.9em;
+    margin-left: 5%;
+  }
+
+  .soluciones-financieras__icons {
+    height: 45px;
+  }
+
+  .soluciones-financieras__text-icons {
+    font-size: 0.8em;
+  }
+
+  .soluciones-financieras__ul li {
+    height: auto;
+  }
+
+  .requisitos__ul li {
+    height: auto;
+  }
 }
 
 .cotizador__title {
@@ -11457,7 +11590,7 @@ a.text-dark:focus {
   color: #363636;
   padding-left: 0px;
   padding-top: 3px;
-  height: 48px;
+  /*height: 48px;*/
   margin-left: 0;
   margin-top: 4px;
   margin-bottom: 10px;
@@ -11512,6 +11645,52 @@ a.text-dark:focus {
   font-family: "Campton-Book";
   font-size: 0.8em;
   color: #fff;
+}
+
+.blog-show__title {
+  font-family: "Campton-Book";
+  color: #fff;
+  font-size: 2.7em;
+}
+
+.blog-show__top-title {
+  margin-top: 131px;
+}
+
+.blog-show__subtitle {
+  font-family: "Hollaboi";
+  color: #40FC02;
+  font-size: 6em;
+  font-size: 16em;
+  margin-top: -77px;
+  letter-spacing: 2px;
+}
+
+.blog-show__content {
+  margin-top: -158px;
+  background-color: #fff;
+  min-height: 100vh;
+  padding: 30px 100px;
+}
+
+/************************* responsivo *****************************/
+
+@media (max-width: 767.98px) {
+  .blog-show__title {
+    font-size: 2em;
+  }
+
+  .blog-show__subtitle {
+    font-size: 10em;
+    margin-top: -66px;
+  }
+
+  .blog-show__content {
+    width: 90%;
+    margin-top: -195px;
+    padding: 25px 20px;
+    min-height: 50vh;
+  }
 }
 
 .bg-blue {

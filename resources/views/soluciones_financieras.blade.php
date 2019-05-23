@@ -18,7 +18,7 @@
                     <span class="d-block soluciones-financieras__text-icons">Sin complicaciones</span>
                 </div>
                 <div class="text-center">
-                    <img class="img-fluid col-9" src="{{ asset('img/soluciones_financieras/Flechas.png') }}" alt="">
+                    <img class="img-fluid col-12 col-md-9" src="{{ asset('img/soluciones_financieras/Flechas.png') }}" alt="">
 
                 </div>
                 <div class="text-center">
@@ -26,7 +26,7 @@
                     <span class="d-block soluciones-financieras__text-icons">Abonos a tu medida</span>
                 </div>
                 <div>
-                    <img class="img-fluid col-9" src="{{ asset('img/soluciones_financieras/Flechas.png') }}" alt="">
+                    <img class="img-fluid col-12 col-md-9" src="{{ asset('img/soluciones_financieras/Flechas.png') }}" alt="">
                 </div>
                 <div class="text-center">
                     <img class="soluciones-financieras__icons" src="{{ asset('img/soluciones_financieras/estrellas.png') }}" alt="">
@@ -41,7 +41,7 @@
             <div class="col-12 col-md-6 soluciones-financieras__ventajas-left">
 
             </div>
-            <div class="col-12 col-md-6 soluciones-financieras__ventajas">
+            <div class="col-12 col-md-6 soluciones-financieras__ventajas pb-5 pb-md-0">
                 <div class="soluciones-financieras__title-ventajas">
                     <span>Ven</span><span class="text-white">tajas</span>
                 </div>

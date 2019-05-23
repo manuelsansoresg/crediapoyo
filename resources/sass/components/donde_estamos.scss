@@ -66,3 +66,29 @@
     margin-bottom: 0;
   }
 }
+
+/************************* responsivo *****************************/
+@include media-breakpoint-down(sm) {
+  .donde-estamos{
+    &__title{
+      font-size: 2em;
+      line-height: 1px;
+    }
+    &__subtitle{
+      font-size: 2em;
+      line-height: 1px;
+    }
+    &__content-left {
+      margin-left: -32%;
+      margin-top: 8%;
+    }
+
+    &__ul-border-left{
+      border-left:  none;
+    }
+    &__ul-border-right{
+      border-right:  none;
+    }
+
+  }
+}

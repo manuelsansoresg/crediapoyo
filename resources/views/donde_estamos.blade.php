@@ -60,27 +60,32 @@
             <span class="donde-estamos__title-dep">Dependencias</span>
         </div>
     </div>
-    <div class="row mt-5">
-        <div class="col-12 d-flex  justify-content-around">
-            <div>
+    <div class="row mt-3 mt-md-5">
+        <div class="col-12 d-flex  justify-content-around flex-wrap flex-md-nowrap">
+            <div class="">
                 <img class="img-fluid px-3" src="{{ asset('img/donde_estamos/SNTE_7.png') }}" alt="">
             </div>
-            <div>
+            <div class=" mt-5 mt-md-0">
                 <img class="img-fluid px-3" src="{{ asset('img/donde_estamos/Tam_Gob.png') }}" alt="">
             </div>
-            <div>
+            <div class=" mt-5 mt-md-0">
                 <img class="img-fluid px-3" src="{{ asset('img/donde_estamos/SNTE_18.png') }}" alt="">
             </div>
-            <div>
+            <div class="  mt-5 mt-md-0">
                 <img class="img-fluid px-3" src="{{ asset('img/donde_estamos/Tam_Salud.png') }}" alt="">
             </div>
         </div>
     </div>
 
-    {{-- solicita tu credito   --}}
-    @include('form_solicita_credito')
-    {{-- /solicita tu credito   --}}
+
+
+
 </div>
+    {{-- solicita tu credito   --}}
+    <div class="container">
+        @include('form_solicita_credito')
+    </div>
+    {{-- /solicita tu credito   --}}
     @include('cotizador')
 @endsection
 

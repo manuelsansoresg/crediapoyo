@@ -11,8 +11,8 @@
             </ol>--}}
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('img/Foto_H1.png') }}" class="d-block w-100" alt="...">
-                    <div class="carousel-caption  carousel-caption-home d-none d-md-block">
+                    <img src="{{ asset('img/Foto_H1.png') }}" class="d-none d-md-block w-100" alt="...">
+                    <div class="carousel-caption  carousel-caption-home">
                         <div class=" carousel-caption-home__right">
                             <img src="{{ asset('img/icon_slider/'.$slider_content->icon) }}" id="slider-icon" alt="">
                             <h4 class="carousel-caption-home__title mt-3" id="slider-title">{{ $slider_content->title }}</h4>
@@ -40,7 +40,7 @@
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                </div>
+                </div>Formulario
                 <div class="carousel-item">
                     <img src="{{ asset('img/Foto_H1.png') }}" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
@@ -63,7 +63,7 @@
     {{-- solicita credito--}}
     <div class="solicita-credito mt-3">
         <div class="container">
-            <div class="row">
+            <div class="row ">
                 <div class="col-2 col-md-1">
                     <img class="img-fluid" src="{{ asset('img/Icono_Formulario.png') }}" alt="">
                 </div>
@@ -143,8 +143,8 @@
 
                     </form>
                 </div>
-                <div class="col-12 col-md-5">
-                    <img class="img-fluid" src="{{ asset('img/Formulario.png') }}" alt="">
+                <div class="col-12 col-md-5 ">
+                    <img class="img-fluid mt-3 mt-md-0 "  src="{{ asset('img/Formulario.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -252,32 +252,6 @@
         </div>
     </div>
     {{-- /blog--}}
-    <div class="barra-contacto mt-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <span class="barra-contacto__title">MENÚ</span>
-                </div>
-                <div class="col-12 text-center">
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="">Home |</a> </li>
-                        <li class="list-inline-item"><a href="">¿Quiénes somos? | </a> </li>
-                        <li class="list-inline-item"><a href="">¿Dónde estamos? | </a> </li>
-                        <li class="list-inline-item"><a href="">Soluciones Financieras | </a> </li>
-                        <li class="list-inline-item"><a href="">Contacto  | </a> </li>
-                        <li class="list-inline-item"><a href="">Blog   </a> </li>
-                    </ul>
-                </div>
-                <div class="col-12 text-center mt-n2">
-                    <span class="barra-contacto__title">CONTACTO</span>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href="">Tel: 5578994922 | </a> </li>
-                        <li class="list-inline-item"><a href="">Mail: crediapoyo.sep.gob@gmail.com
-                            </a> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
 @endsection

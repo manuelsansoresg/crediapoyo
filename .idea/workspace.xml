@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62910a4c-dc60-44d1-b4ae-cd731eb1cb15" name="Default Changelist" comment="" />
+    <list default="true" id="62910a4c-dc60-44d1-b4ae-cd731eb1cb15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/blog_show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Branch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SeccionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SeccionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_10_175334_create_blog_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_10_175334_create_blog_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_14_152044_create_branch_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_14_152044_create_branch_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_17_202334_create_cotizador.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/EstadoSucursalSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/EstadoSucursalSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SliderSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SliderSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/public.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/contacto.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/contacto.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/donde_estamos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/donde_estamos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/section_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/section_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/solicita_credito.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/solicita_credito.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/components/soluciones_financieras.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/components/soluciones_financieras.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contacto.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacto.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cotizador.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cotizador.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/donde_estamos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/donde_estamos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form_solicita_credito.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form_solicita_credito.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/soluciones_financieras.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/soluciones_financieras.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,86 +78,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/contacto.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/cotizador.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="85" column="11" lean-forward="true" selection-start-line="83" selection-end-line="85" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/blog.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+            <state relative-caret-position="82">
+              <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
               <folding>
-                <element signature="e#1691#1740#0#HTML" expanded="true" />
-                <element signature="e#1719#1976#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/afiliate.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="62" column="31" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="62" selection-end-column="31" />
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/components/section_blog.scss">
+        <entry file="file://$PROJECT_DIR$/resources/views/donde_estamos.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="264">
+              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+              <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/fonts.scss">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CotizadorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+            <state relative-caret-position="212">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <element signature="e#40#55#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/components/carousel.scss">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+            <state relative-caret-position="260">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/components/afiliate.scss">
+        <entry file="file://$PROJECT_DIR$/resources/js/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="234">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/components/contacto.scss">
+        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="290">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+        <entry file="file://$PROJECT_DIR$/app/Branch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="13" column="10" selection-start-line="13" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="260">
+              <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -158,62 +197,71 @@
       <find>gray-six</find>
       <find>icon</find>
       <find>363636</find>
+      <find>Formulario</find>
+      <find>&amp;__title</find>
+      <find>col-12 col-md-12</find>
+      <find>blog-show</find>
+      <find>blog</find>
+      <find>#EEEEEE</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LandingController.php" />
-        <option value="$PROJECT_DIR$/resources/sass/components/card.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/components/blog.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/app_admin.scss" />
-        <option value="$PROJECT_DIR$/resources/js/app_admin.js" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_05_16_161708_add_highlight_blogs.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/BlogAController.php" />
-        <option value="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatable/css/responsive.css" />
-        <option value="$PROJECT_DIR$/public/vendor/adminlte/plugins/datatable/js/responsive.js" />
-        <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php" />
-        <option value="$PROJECT_DIR$/config/adminlte.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/adminlte/partials/menu-item-top-nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/slider/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/EstadoSucursalSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_05_14_152044_create_branch_table.php" />
         <option value="$PROJECT_DIR$/app/Cotizador.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_05_17_202334_create_cotizador.php" />
         <option value="$PROJECT_DIR$/resources/views/quienes_somos.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/donde_estamos.php" />
         <option value="$PROJECT_DIR$/resources/sass/components/donde_estamos.css" />
-        <option value="$PROJECT_DIR$/resources/sass/components/donde_estamos.scss" />
         <option value="$PROJECT_DIR$/resources/sass/components/footer.scss" />
         <option value="$PROJECT_DIR$/resources/views/solicita_credito.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/soluciones_financieras.js" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_14_202439_slider_contents_table.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/slider.js" />
-        <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/resources/sass/components/cotizador.scss" />
-        <option value="$PROJECT_DIR$/resources/views/cotizador.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/donde_estamos.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/soluciones_financieras.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/components/soluciones_financieras.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/components/contacto.scss" />
         <option value="$PROJECT_DIR$/resources/sass/components/afiliate.scss" />
         <option value="$PROJECT_DIR$/resources/views/afiliate.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SeccionController.php" />
-        <option value="$PROJECT_DIR$/resources/views/contacto.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/fonts.scss" />
         <option value="$PROJECT_DIR$/resources/sass/components/section_log.php" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/components/section_blog.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/components/carousel.scss" />
+        <option value="$PROJECT_DIR$/database/seeds/SliderSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_10_175334_create_blog_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SeccionController.php" />
+        <option value="$PROJECT_DIR$/resources/sass/components/donde_estamos.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/components/solicita_credito.scss" />
+        <option value="$PROJECT_DIR$/resources/views/donde_estamos.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/form_solicita_credito.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/soluciones_financieras.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/components/soluciones_financieras.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/components/contacto.scss" />
+        <option value="$PROJECT_DIR$/resources/views/contacto.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/components/carousel.scss" />
+        <option value="$PROJECT_DIR$/resources/views/blog_show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/components/blog.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/components/section_blog.scss" />
+        <option value="$PROJECT_DIR$/resources/js/components/soluciones_financieras.js" />
+        <option value="$PROJECT_DIR$/resources/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/resources/sass/components/input.scss" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_17_202334_create_cotizador.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_13_223747_create_states_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_14_152044_create_branch_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/EstadoSucursalSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Helpers.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CotizadorController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Branch.php" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/views/cotizador.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/slider.js" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
       </list>
     </option>
   </component>
@@ -307,6 +355,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -340,7 +389,31 @@
             <path>
               <item name="crediapoyo" type="b2602c69:ProjectViewProjectNode" />
               <item name="crediapoyo" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crediapoyo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crediapoyo" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crediapoyo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crediapoyo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crediapoyo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crediapoyo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crediapoyo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crediapoyo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crediapoyo" type="b2602c69:ProjectViewProjectNode" />
@@ -370,6 +443,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/slider" />
@@ -457,17 +531,30 @@
       <workItem from="1558281489245" duration="6400000" />
       <workItem from="1558304996557" duration="9969000" />
       <workItem from="1558363954562" duration="22186000" />
-      <workItem from="1558447389880" duration="11885000" />
+      <workItem from="1558447389880" duration="12255000" />
+      <workItem from="1558473118608" duration="3591000" />
+      <workItem from="1558533367779" duration="15784000" />
+      <workItem from="1558621394381" duration="14186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180629000" />
+    <option name="totallyTimeSpent" value="214560000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991453" weight="0.3517398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991453" visible="true" weight="0.3517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50085473" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -477,12 +564,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991454" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32991454" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32991454" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32991454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -494,115 +581,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/partials/menu-item.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/adminlte/page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="97" column="41" selection-start-line="97" selection-start-column="41" selection-end-line="97" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8868b8f7-91ab-4bd9-8ce9-d2ae1a22f16c/schema/crediapoyo/table/branchs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://8868b8f7-91ab-4bd9-8ce9-d2ae1a22f16c/schema/crediapoyo/table/states">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Cotizador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_14_152044_create_branch_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_17_202334_create_cotizador.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Branch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/EstadoSucursalSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="30" />
-          <folding>
-            <element signature="e#7#22#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/slider/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="88" column="12" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/quienes_somos.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/form_solicita_credito.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-426" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -610,24 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_14_202439_slider_contents_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/SliderSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -655,56 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/soluciones_financieras.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/cotizador.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LandingController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -715,129 +633,294 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/donde_estamos.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/section_log.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/afiliate.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        <state relative-caret-position="1612">
+          <caret line="62" column="31" selection-start-line="57" selection-start-column="12" selection-end-line="62" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/donde_estamos.scss">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_10_175334_create_blog_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="65" column="21" selection-start-line="56" selection-start-column="3" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="156">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/soluciones_financieras.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/SliderSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4108">
-          <caret line="158" column="11" selection-start-line="156" selection-end-line="158" selection-end-column="11" />
+        <state relative-caret-position="224">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LandingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SeccionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/soluciones_financieras.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3406">
-          <caret line="131" column="3" selection-start-line="114" selection-start-column="2" selection-end-line="131" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/contacto.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/afiliate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="174">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        <state relative-caret-position="3068">
+          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/section_log.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/blog.scss">
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/afiliate.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="520">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SeccionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="420">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/section_blog.scss">
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/donde_estamos.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="26">
+          <caret line="69" selection-start-line="69" selection-end-line="69" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/resources/views/form_solicita_credito.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="13" column="10" selection-start-line="13" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="264">
+          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/components/carousel.scss">
+    <entry file="file://$PROJECT_DIR$/resources/views/soluciones_financieras.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+        <state relative-caret-position="286">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/afiliate.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/contacto.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="62" column="31" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="572">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contacto.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="85" column="11" lean-forward="true" selection-start-line="83" selection-end-line="85" selection-end-column="11" />
+        <state relative-caret-position="208">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/blog.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        <state relative-caret-position="572">
+          <caret line="22" column="134" selection-start-line="22" selection-start-column="134" selection-end-line="22" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/section_blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/solicita_credito.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="36" selection-start-line="19" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog_show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/carousel.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/soluciones_financieras.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="152" column="36" selection-start-line="147" selection-end-line="152" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/components/input.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_17_202334_create_cotizador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_13_223747_create_states_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_14_152044_create_branch_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
-            <element signature="e#1691#1740#0#HTML" expanded="true" />
-            <element signature="e#1719#1976#0#HTML" expanded="true" />
+            <element signature="e#93#108#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/State.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/EstadoSucursalSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <folding>
+            <element signature="e#7#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/soluciones_financieras.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app_admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/slider.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Branch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CotizadorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/donde_estamos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/cotizador.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>

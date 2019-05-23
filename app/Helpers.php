@@ -4,7 +4,10 @@
     return \App\Album::find($album_id)->images;
 }*/
 
-function thumbnail($nombreimg,  $thumb,  $xmax, $ymax){
+use App\Branch;
+use App\State;
+
+function thumbnail($nombreimg, $thumb, $xmax, $ymax){
 
     $ext = explode(".", $nombreimg);
     $ext = $ext[count($ext) - 1];
@@ -35,4 +38,12 @@ function thumbnail($nombreimg,  $thumb,  $xmax, $ymax){
     imagecopyresized($img2, $imagen, 0, 0, 0, 0, floor($nuevax), floor($nuevay), $x, $y);
     imagejpeg($img2, $thumb);
 
+}
+
+function state(){
+    return State::all();
+}
+
+function dependency(){
+    return Branch::all();
 }

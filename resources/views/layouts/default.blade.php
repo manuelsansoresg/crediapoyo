@@ -55,6 +55,34 @@
 </nav>
 @yield('content')
 {{-- footer--}}
+<div class="barra-contacto mt-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <span class="barra-contacto__title">MENÚ</span>
+            </div>
+            <div class="col-12 text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="">Home |</a> </li>
+                    <li class="list-inline-item"><a href="">¿Quiénes somos? | </a> </li>
+                    <li class="list-inline-item"><a href="">¿Dónde estamos? | </a> </li>
+                    <li class="list-inline-item"><a href="">Soluciones Financieras | </a> </li>
+                    <li class="list-inline-item"><a href="">Contacto  | </a> </li>
+                    <li class="list-inline-item"><a href="">Blog   </a> </li>
+                </ul>
+            </div>
+            <div class="col-12 text-center mt-n2">
+                <span class="barra-contacto__title">CONTACTO</span>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="">Tel: 5578994922 | </a> </li>
+                    <li class="list-inline-item"><a href="">Mail: crediapoyo.sep.gob@gmail.com
+                        </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="footer">
     <div class="container">
         <div class="row">

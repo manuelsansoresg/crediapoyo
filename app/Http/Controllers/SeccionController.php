@@ -36,4 +36,9 @@ class SeccionController extends Controller
     {
         return view('blog');
     }
+
+    public function show_blog($slug)
+    {
+        return view('blog_show');
+    }
 }

@@ -25,6 +25,8 @@ Route::get('/soluciones-financieras', 'SeccionController@soluciones_financieras'
 Route::get('/contacto', 'SeccionController@contacto');
 Route::get('/afiliate', 'SeccionController@afiliate');
 Route::get('/blog', 'SeccionController@blog');
+Route::get('/blog/{slug}', 'SeccionController@show_blog');
+Route::get('/get_dependency/{state_id}', 'CotizadorController@get_dependency');
 
 Route::group(['prefix' => 'admin'], function (){
     Route::resource('blog', 'Admin\BlogAController');

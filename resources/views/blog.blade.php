@@ -15,12 +15,12 @@
                             <span>Di<span class="text-white">ne</span>ro </span>
                         </div>
 
-                        <div class="carousel-caption-blog__description mt-n4">
+                        <div class="carousel-caption-blog__description mt-n2 mt-md-n4">
                             <p class="my-0">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus architecto blanditiis deleniti deserunt dolor dolorum excepturi exercitationem impedit laboriosam necessitatibus.
                             </p>
                             <div class="d-block float-right">
-                                <a href="" class="btn btn-outline-info carousel-caption-blog__btn">Ver más</a>
+                                <a href="#" class="btn btn-outline-info carousel-caption-blog__btn carousel-caption-blog__btn-carousel">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -31,25 +31,29 @@
 
     </div>
     <div class="section-blog mt-5">
-        <div class="col-12 d-flex flex-wrap justify-content-center">
-            @for($i=0; $i<10; $i++)
-            <div style="height: 400px; width: 200px;" class="shadow mx-2 my-3">
+        <div class="container">
+            <div class="row">
+                @for($i=0; $i<10; $i++)
+                    <div style="height: 400px;" class="shadow mx-3 my-3 col-md-2">
 
-                <div style="position: relative; background: url('{{ asset('img/diseccion_blog/Blog2.png') }}') no-repeat center center; height: 410px; width: 200px; -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover; ">
-                    <div class="section-blog__content">
-                        <span class="section-blog__title">Blog 1</span>
-                        <p class="section-blog__description">
-                            {{ Str::limit('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque commodi cum hic labore magni molestiae non obcaecati pariatur sit! Eveniet, odit, quasi?', 107) }}
-                        </p>
-                        <div class="mt-4">
-                            <a href="" class="btn btn-outline-info carousel-caption-blog__btn">Ver más</a>
+                        <div class="row">
+                            <div class="col-md-12"  style="position: relative; background: url('{{ asset('img/diseccion_blog/Blog2.png') }}') no-repeat center center; height: 410px;  -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover; ">
+                                <div class="section-blog__content">
+                                    <span class="section-blog__title">Blog 1</span>
+                                    <p class="section-blog__description">
+                                        {{ Str::limit('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque commodi cum hic labore magni molestiae non obcaecati pariatur sit! Eveniet, odit, quasi?', 107) }}
+                                    </p>
+                                    <div class="mt-4">
+                                        <a href="/blog/prueba" class="btn btn-outline-info carousel-caption-blog__btn">Ver más</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+
                     </div>
-                </div>
-
-
+                @endfor
             </div>
-            @endfor
         </div>
         <div class="container">
             {{-- solicita tu credito   --}}

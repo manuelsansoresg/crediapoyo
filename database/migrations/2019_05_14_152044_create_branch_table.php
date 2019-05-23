@@ -16,6 +16,7 @@ class CreateBranchTable extends Migration
         Schema::create('branches', function (Blueprint $table) {
             $table->bigInteger('state_id')->unsigned();
             $table->string('sucursal');
+            $table->double('mounth_rate', 8, 2);
 
             $table->foreign('state_id')->references('id')->on('states')
                 ->onUpdate('cascade')->onDelete('cascade');

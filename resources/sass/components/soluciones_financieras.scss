@@ -89,7 +89,7 @@
     color: $white;
     padding-left: 0px;
     padding-top: 3px;
-    height: 48px;
+    /*height: 48px;*/
     margin-left: 0;
     margin-top: 4px;
     margin-bottom: 0;
@@ -125,7 +125,7 @@
     color: $gray-two;
     padding-left: 0px;
     padding-top: 3px;
-    height: 48px;
+    /*height: 48px;*/
     margin-left: 0;
     margin-top: 4px;
     margin-bottom: 0;
@@ -144,3 +144,54 @@
   }
 }
 
+
+/************************* responsivo *****************************/
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+@include media-breakpoint-down(sm) {
+  .soluciones-financieras {
+    &__fondo1 {
+      height: 40vh;
+    }
+    &__content{
+      height: 27vh;
+      align-items: center;
+      display: flex;
+      /*justify-content: end;*/
+      flex-direction: column;
+      right: 3%;
+      bottom: 15%;
+    }
+    &__title{
+      font-size: 1.2em;
+    }
+    &__subtitle{
+      font-size: 4em;
+      line-height: 58px;
+    }
+    &__subtitle2{
+      font-size: 0.9em;
+      margin-left: 5%;
+    }
+    &__icons{
+      height: 45px;
+    }
+
+    &__text-icons{
+      font-size: 0.8em;
+    }
+
+    &__ul li{
+      height: auto;
+    }
+
+  }
+
+  .requisitos{
+    &__ul li{
+      height: auto;
+    }
+  }
+}

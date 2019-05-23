@@ -3,9 +3,19 @@
   border-radius: 20px;
 }
 
+
 .form-control:focus{
   background-color: $gray-dark;
   border: 0px;
+}
+
+
+.form-control-cotizador{
+  background-color: $gray-seven;
+}
+
+.form-control-cotizador:focus{
+  background-color: $gray-seven;
 }
 
 ::placeholder {

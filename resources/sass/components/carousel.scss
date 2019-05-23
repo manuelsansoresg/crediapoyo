@@ -115,3 +115,41 @@
   width: 90px;
   height: 96px;
 }
+
+/************************* responsivo *****************************/
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+@include media-breakpoint-down(sm) {
+  .carousel-caption-contacto{
+    left: 5%;
+    bottom: -12%;
+    &__title{
+      font-size: 3em;
+    }
+    &__description{
+      font-size: 9px;
+      width: 59%;
+    }
+  }
+  .carousel-caption-blog {
+    left: 45%;
+    bottom: -6%;
+    &__title{
+      font-size: 0.7em;
+    }
+    &__subtitle{
+      font-size: 3em;
+      margin-top: -16px;
+    }
+    &__description{
+      width: 94%;
+      font-size: 9px;
+    }
+    &__btn-carousel{
+      padding: 5px 0.75rem;
+      line-height: 15px
+    }
+  }
+}
