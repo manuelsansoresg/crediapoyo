@@ -11,7 +11,7 @@
         </div>
         <div class="col-2 col-md-4 donde-estamos__content-left">
             <div class="mt-5">
-                <span class="donde-estamos__title">¿Donde</span>
+                <span class="donde-estamos__title">¿Dónde</span>
                 <span class="donde-estamos__subtitle d-md-block">estamos?</span>
                 <span class="donde-estamos__content">
             </span>
@@ -92,5 +92,4 @@
 
 @section('add_js')
     <script src="{{ asset('js/slider.js') }}"></script>
-
 @endsection

@@ -58,14 +58,14 @@ class EstadoSucursalSeeder extends Seeder
         $sucursal->save();
 
         $sucursal = new Branch();
-        $sucursal->state_id = 3;
+        $sucursal->state_id = 2;
         $sucursal->sucursal = 'Policias';
         $sucursal->mounth_rate = 3.80;
         $sucursal->save();
 
         $sucursal = new Branch();
         $sucursal->state_id = 3;
-        $sucursal->sucursal = 'Michoacán';
+        $sucursal->sucursal = 'Morelia';
         $sucursal->mounth_rate = 3.30;
         $sucursal->save();
 

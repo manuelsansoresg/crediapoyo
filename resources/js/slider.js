@@ -44,6 +44,7 @@ $('#plazo').rangeslider({
 
     onSlide: function(position, value) {
         $('#valor_plazo').html(value + ' quincenas');
+        $('#semana_cat').html(value);
 
         if($('#dependency').val() === ''){
             $('#alerta-cotizador').show(1000);

@@ -1,8 +1,12 @@
 .form-control{
   background-color: $gray-dark;
   border-radius: 20px;
+  /*color: $white !important;*/
 }
 
+.input-gray{
+  background-color: $gray-dark !important;
+}
 
 .form-control:focus{
   background-color: $gray-dark;

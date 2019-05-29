@@ -45,6 +45,13 @@
                                 <span class="text-danger"> {{$errors->first('portada')}}</span>
                             @endif
                         </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Imágen en listado</label>
+                            <input type="file" name="imagen_listado" class="form-control">
+                            @if($errors)
+                                <span class="text-danger"> {{$errors->first('imagen_listado')}}</span>
+                            @endif
+                        </div>
 
                     </div>
                     <div class="col-md-12">

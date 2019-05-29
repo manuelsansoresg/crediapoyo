@@ -32,4 +32,4 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 });*/
 
 require('./components/slider');
-require('./components/soluciones_financieras');
+require('./components/solicita');

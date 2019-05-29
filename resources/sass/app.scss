@@ -23,6 +23,7 @@
 @import 'components/contacto';
 @import 'components/afiliate';
 @import 'components/section_blog';
+@import 'components/quienes_somos';
 
 
 .bg-blue{
@@ -46,5 +47,11 @@
     color: $green-carousel !important;
 }
 
+.terminos{
+    min-height: 100vh;
+}
 
+.ul-romano{
+    list-style-type:upper-roman;
+}
 

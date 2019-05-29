@@ -8,10 +8,10 @@
                 <div class="row">
                     <div class="col-12 text-center blog-show__top-title">
                         <div class="blog-show__title">
-                            Como viajar con poco
+
                         </div>
-                        <div class="blog-show__subtitle">
-                            Di<span class="text-white">ne</span>ro
+                        <div class="blog-show__subtitle mt-5">
+                            {{ $blog->title }}
                         </div>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
         <div class="container blog-show__content shadow">
             <div class="row">
                 <div class="col-12">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam, eos et exercitationem facilis ipsam laudantium magnam modi natus necessitatibus, neque porro praesentium quibusdam quidem, quis quos sunt unde voluptas!
+                    {!! $blog->contenido !!}
                 </div>
             </div>
         </div>

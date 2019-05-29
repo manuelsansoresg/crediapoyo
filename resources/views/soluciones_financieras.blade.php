@@ -23,7 +23,7 @@
                 </div>
                 <div class="text-center">
                     <img class="soluciones-financieras__icons" src="{{ asset('img/soluciones_financieras/Mano_Monedas.png') }}" alt="">
-                    <span class="d-block soluciones-financieras__text-icons">Abonos a tu medida</span>
+                    <span class="d-block soluciones-financieras__text-icons">Pagos Fijos</span>
                 </div>
                 <div>
                     <img class="img-fluid col-12 col-md-9" src="{{ asset('img/soluciones_financieras/Flechas.png') }}" alt="">

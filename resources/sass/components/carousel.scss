@@ -111,7 +111,7 @@
   }
 }
 
-#slider-icon{
+.slider-icon{
   width: 90px;
   height: 96px;
 }
@@ -122,6 +122,20 @@
 
 }
 @include media-breakpoint-down(sm) {
+
+  .carousel-caption-home{
+    padding: 10px 20px;
+  }
+
+  .carousel-caption-home__right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .carousel-caption-home__descripcion {
+    padding: 0px 20px;
+  }
+
   .carousel-caption-contacto{
     left: 5%;
     bottom: -12%;

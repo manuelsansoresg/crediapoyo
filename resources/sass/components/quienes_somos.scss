@@ -1,0 +1,167 @@
+.quienes-somos{
+
+  &__video{
+    height: 80vh;
+    background-color: #0011C0;
+  }
+  &__title-right{
+    font-family: 'Hollaboi';
+    color: $blue-tree;
+    font-size: 12em;
+  }
+
+  &__border-right{
+    border-right: 1px solid $gray-eight;
+    height: 205px;
+  }
+
+  &__content-left{
+    padding: 0px 40px;
+  }
+
+  &__title{
+    font-size: 3em;
+    font-family: 'Campton-Medium';
+    color:$blue-two;
+  }
+
+  &__subtitle{
+    font-size: 4em;
+    font-family: 'Campton-Bold';
+    color:$green-carousel;
+  }
+
+  &__content{
+    font-family: 'Campton-Book';
+    color: $gray-two;
+  }
+
+  &__content-foto{
+    position: relative;
+  }
+
+  &__foto-left{
+    position: relative;
+    z-index: 100000000000021;
+    width: 53%;
+  }
+
+  &__foto-right{
+    top: 10px;
+    width: 60%;
+    position: absolute;
+    background-color: $blue-six !important;
+    height: 99%;
+    right: 7px;
+    z-index: 1;
+
+  }
+
+  &__content-historia{
+    position: absolute;
+    left: 32%;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    font-family: 'Campton-Book';
+  }
+
+  &__historia-title{
+    font-family: "Hollaboi";
+    font-size: 6em;
+    color: #40FC02;
+    letter-spacing: 3px;
+  }
+
+  &__icon{
+    padding: 15px 20px;
+    height: 125px;
+  }
+
+  &__card{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    min-height: 405px;
+  }
+
+  &__card-title{
+    font-family: 'Campton-Bold';
+    color: $green-menu;
+    font-size: 2em;
+  }
+
+  &__card-content{
+    font-family: 'Campton-Light';
+    color: $gray-nine;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+
+  &__ul{
+    list-style: none
+  }
+  &__ul li {
+    padding-left: 1em;
+    text-indent: -.7em;
+    font-family: 'Campton-Light';
+    font-size: 0.9em;
+  }
+
+  &__ul li::before {
+    background-color: $green-menu;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 7px;
+    width: 7px;
+  }
+
+}
+
+@include media-breakpoint-down(sm) {
+  .quienes-somos{
+    &__title-right{
+      ont-size: 10em;
+    }
+    &__title {
+      font-size: 2em;
+    }
+    &__subtitle {
+      font-size: 2em;
+    }
+    &__content-foto {
+      position: relative;
+      display: block;
+      width: 100%;
+    }
+    &__foto-left {
+      position: relative;
+      width: 100%;
+    }
+    &__foto-right {
+      top: 0px;
+      width: 100%;
+      position: static;
+      background-color: #0A1E76 !important;
+      height: 99%;
+      /* right: 7px; */
+      /* z-index: 1; */
+    }
+    &__content-historia {
+      position: relative;
+      left: 0%;
+      display: block;
+      color: white;
+      width: 100%;
+      background-color: #0A1E76 !important;
+      padding: 0px 20px;
+    }
+  }
+}

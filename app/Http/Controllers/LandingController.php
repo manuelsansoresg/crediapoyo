@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Blog;
 use App\SliderContent;
 use Illuminate\Http\Request;
 
@@ -11,7 +12,8 @@ class LandingController extends Controller
     {
         $slider_content = SliderContent::first();
         $sliders_all = SliderContent::orderBy('order', 'asc')->get();
-        return view('welcome', compact('slider_content', 'sliders_all'));
+        $blog_destacado = Blog::orderBy('created_at', 'asc')->get();
+        return view('welcome', compact('slider_content', 'sliders_all', 'blog_destacado'));
     }
 
     public function showSliderContent($id)

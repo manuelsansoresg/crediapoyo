@@ -12,13 +12,17 @@
   &__title{
     font-family: 'Campton-ExtraBold';
     color: $green-menu;
-    font-size: 2em;
+    font-size: 1.4em;
   }
 
   &__description{
     font-family: 'Campton-Book';
     font-size: 0.8em;
-    color: $white;
+    color: white !important;
+  }
+
+  &__description p>span{
+    color: white !important;
   }
 
 }
@@ -36,12 +40,14 @@
   }
 
   &__subtitle{
-    font-family: 'Hollaboi';
+    /*font-family: 'Hollaboi';*/
+
+    font-family: 'Campton-Bold';
     color: $green-menu;
     font-size: 6em;
-    font-size: 16em;
     margin-top: -77px;
     letter-spacing: 2px;
+    line-height: 85px;
   }
 
   &__content{
@@ -67,8 +73,9 @@
       font-size: 2em;
     }
     &__subtitle{
-      font-size: 10em;
+      font-size: 3em;
       margin-top: -66px;
+      line-height: 50px;
     }
     &__content{
       width: 90%;

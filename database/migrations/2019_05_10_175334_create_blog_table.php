@@ -19,6 +19,8 @@ class CreateBlogTable extends Migration
             $table->string('slug');
             $table->string('portada');
             $table->string('portada_thumb');
+            $table->string('listado');
+            $table->string('listado_thumb');
             $table->text('contenido');
             $table->string('order')->nullable();
             $table->smallInteger('status')->default(1);

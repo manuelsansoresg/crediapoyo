@@ -1,4 +1,5 @@
 $( ".item" ).click(function() {
+
     const code = $(this).attr("data-code");
     var url = '/showSliderContent/'+code;
     axios.get(url)
@@ -10,11 +11,10 @@ $( ".item" ).click(function() {
                 $('#fa-'+ids[i].id).removeClass('text-success');
             }
             $('#fa-'+code).addClass('text-success');
-            $('#slider-title').html(slider_content.title);
-            console.log(slider_content.title);
-            $('#slider-content').html(slider_content.content);
+            $('.slider-title').html(slider_content.title);
+            $('.slider-content').html(slider_content.content);
 
-            var image = $("#slider-icon");
+            var image = $(".slider-icon");
             image.fadeOut('fast', function () {
                 image.attr('src', '/img/icon_slider/'+slider_content.icon);
                 image.fadeIn('fast');

@@ -33,18 +33,18 @@
     <div class="section-blog mt-5">
         <div class="container">
             <div class="row">
-                @for($i=0; $i<10; $i++)
+                @foreach($blogs as $blog)
                     <div style="height: 400px;" class="shadow mx-3 my-3 col-md-2">
 
                         <div class="row">
                             <div class="col-md-12"  style="position: relative; background: url('{{ asset('img/diseccion_blog/Blog2.png') }}') no-repeat center center; height: 410px;  -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover; ">
                                 <div class="section-blog__content">
-                                    <span class="section-blog__title">Blog 1</span>
+                                    <span class="section-blog__title">{{ Str::limit($blog->title, 30) }}</span>
                                     <p class="section-blog__description">
-                                        {{ Str::limit('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque commodi cum hic labore magni molestiae non obcaecati pariatur sit! Eveniet, odit, quasi?', 107) }}
+                                        {!!  strip_tags(Str::limit($blog->contenido, 200))  !!}
                                     </p>
                                     <div class="mt-4">
-                                        <a href="/blog/prueba" class="btn btn-outline-info carousel-caption-blog__btn">Ver más</a>
+                                        <a href="/blog/{{ $blog->slug }}" class="btn btn-outline-info carousel-caption-blog__btn">Ver más</a>
                                     </div>
                                 </div>
                             </div>
@@ -52,8 +52,15 @@
 
 
                     </div>
-                @endfor
+                @endforeach
+
             </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    {{ $blogs->links() }}
+                </div>
+            </div>
+
         </div>
         <div class="container">
             {{-- solicita tu credito   --}}

@@ -29,10 +29,10 @@
                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
              </li>--}}
             <li class="nav-item">
-                <a class="nav-link nav-item-border-two" href="/quienes-somos">¿QUIENES <div class="d-inline d-md-block"></div> SOMOS?</a>
+                <a class="nav-link nav-item-border-two text-uppercase" href="/quienes-somos">¿Quiénes <div class="d-inline d-md-block"></div> SOMOS?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link nav-item-border-two" href="/donde-estamos">¿DONDE <div class="d-inline d-md-block"></div> ESTAMOS? </a>
+                <a class="nav-link nav-item-border-two text-uppercase" href="/donde-estamos">¿Dónde <div class="d-inline d-md-block"></div> ESTAMOS? </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link nav-item-border-two" href="/soluciones-financieras">SOLUCIONES <div class="d-inline d-md-block"></div> FINANCIERAS </a>
@@ -63,16 +63,17 @@
             </div>
             <div class="col-12 text-center">
                 <ul class="list-inline">
-                    <li class="list-inline-item"><a href="">Home |</a> </li>
-                    <li class="list-inline-item"><a href="">¿Quiénes somos? | </a> </li>
-                    <li class="list-inline-item"><a href="">¿Dónde estamos? | </a> </li>
-                    <li class="list-inline-item"><a href="">Soluciones Financieras | </a> </li>
-                    <li class="list-inline-item"><a href="">Contacto  | </a> </li>
-                    <li class="list-inline-item"><a href="">Blog   </a> </li>
+                    <li class="list-inline-item"><a href="/">Home |</a> </li>
+                    <li class="list-inline-item"><a href="/quienes-somos">¿Quiénes somos? | </a> </li>
+                    <li class="list-inline-item"><a href="/donde-estamos">¿Dónde estamos? | </a> </li>
+                    <li class="list-inline-item"><a href="/soluciones-financieras">Soluciones Financieras | </a> </li>
+                    <li class="list-inline-item"><a href="/contacto">Contacto  | </a> </li>
+                    <li class="list-inline-item"><a href="/blog">Blog |  </a> </li>
+                    <li class="list-inline-item"><a href="/afiliate">Afiliate   </a> </li>
                 </ul>
             </div>
             <div class="col-12 text-center mt-n2">
-                <span class="barra-contacto__title">CONTACTO</span>
+                <span class="barra-contacto__title">Comentarios y Sugerencias</span>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="">Tel: 5578994922 | </a> </li>
                     <li class="list-inline-item"><a href="">Mail: crediapoyo.sep.gob@gmail.com
@@ -86,18 +87,28 @@
 <div class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="" class="text-white">Aviso Legal |</a> </li>
-                    <li class="list-inline-item"><a href="" class="text-white">  Aviso de privacidad | </a> </li>
-                    <li class="list-inline-item"><a href="" class="text-white">  Productos Garantizados por el IPAB | </a> </li>
-                    <li class="list-inline-item"><a href="" class="text-white">  Portabilidad Nómina  | </a> </li>
-                    <li class="list-inline-item"><a href="" class="text-white">  Consulta los Costos y las Comisiones de nuestros productos  </a> </li>
+            <div class="col-12 text-center mt-1">
+                <small>
+                    Baracaf, S.A. de C.V., SOFOM, E.N.R., no requiere para su constitución y
+                    operación autorización de la Secretaría de Hacienda y Crédito Público, y está
+                    sujeta a la supervisión de la Comisión Nacional Bancaria y de Valores, únicamente en materia de prevención y detección de Operaciones con Recursos de Procedencia Ilícita, Terrorismo y Terrorismo Internacional, de conformidad al artículo 56 de la Ley General de Organizaciones y Actividades Auxiliares del Crédito.
 
-                </ul>
+                </small>
+            </div>
+            <div class="row  mt-4">
+                <div class="col-12 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="" class="text-white">Aviso Legal |</a> </li>
+                        <li class="list-inline-item"><a href="/aviso-de-privacidad" class="text-white">  Aviso de privacidad | </a> </li>
+                        <li class="list-inline-item"><a href="" class="text-white">  Productos Garantizados por el IPAB | </a> </li>
+                        <li class="list-inline-item"><a href="" class="text-white">  Portabilidad Nómina  | </a> </li>
+                        <li class="list-inline-item"><a href="" class="text-white">  Consulta los Costos y las Comisiones de nuestros productos  </a> </li>
+
+                    </ul>
+                </div>
             </div>
             <div class="col-12 text-center">
-                <p>© 2019 CrediApoyo Inc Términos y Condiciones
+                <p>© 2019 CrediApoyo Inc <a href="/terminos-y-condiciones" class="text-white">Términos y Condiciones</a>
                 </p>
             </div>
         </div>

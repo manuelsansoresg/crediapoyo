@@ -27,10 +27,16 @@ Route::get('/afiliate', 'SeccionController@afiliate');
 Route::get('/blog', 'SeccionController@blog');
 Route::get('/blog/{slug}', 'SeccionController@show_blog');
 Route::get('/get_dependency/{state_id}', 'CotizadorController@get_dependency');
+Route::get('/terminos-y-condiciones', 'SeccionController@terminos');
+Route::get('/terminos-y-condiciones', 'SeccionController@terminos');
+Route::get('/aviso-de-privacidad', 'SeccionController@aviso');
+
+Route::post('/solicita_informacion', 'SeccionController@solicita_informacion');
 
 Route::group(['prefix' => 'admin'], function (){
     Route::resource('blog', 'Admin\BlogAController');
     Route::get('delete_portada/{id}', 'Admin\BlogAController@delete_portada');
+    Route::get('delete_listado/{id}', 'Admin\BlogAController@delete_listado');
     Route::get('blog/highlight/{id}', 'Admin\BlogAController@highlight');
     Route::get('blog/unhighlight/{id}', 'Admin\BlogAController@unhighlight');
 

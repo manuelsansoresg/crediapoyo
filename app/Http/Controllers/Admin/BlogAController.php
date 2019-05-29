@@ -7,6 +7,8 @@ use App\Http\Requests\BlogRequest;
 use App\Http\Requests\UpdateBlogRequest;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Str;
+use upload;
 
 class BlogAController extends Controller
 {
@@ -51,23 +53,46 @@ class BlogAController extends Controller
     {
         $blog = new Blog();
         $blog->title = $request->titulo;
+        $blog->slug = Str::slug($request->titulo);
         $blog->contenido = $request->contenido;
 
         if($request->hasFile('portada') != false){ //image is not empty portada
             $image_cover = $request->file('portada');
 
+            /**
+             * crear nombres para las imagenes
+             */
+            $fullName =$image_cover->getClientOriginalName();
+            $extension =$image_cover->getClientOriginalExtension();
+            $onlyName = explode('.'.$extension,$fullName)[0];
+
+
+            $name_thumb = 'thumb_'.time().'.'.$onlyName;
+            $name_full_thumb = 'thumb_'.time().'.'.$fullName;
+
+            /**
+             * seccion para redimencionar imagen
+             */
+
             $name_cover = 'cover-'.time().'.'.$image_cover->getClientOriginalExtension();
-            $name_thumb = 'thumb-'.time().'.'.$image_cover->getClientOriginalExtension();
 
+            $thumb = new upload($_FILES['portada']);
+            if ($thumb->uploaded) {
+                $thumb->file_new_name_body   = $name_thumb;
+                $thumb->image_resize         = true;
+                $thumb->image_x              = 300;
+                $thumb->process($this->path_blog.'/');
+            }
             $image_cover->move($this->path_blog, $name_cover);
-            /* crear el thumb */
-            $image             = $this->path_blog.'/'.$name_cover;
-            $image_thumb       = $this->path_blog.'/'.$name_thumb;
-
-            thumbnail($image, $image_thumb, 300,200); //ejecuta helper que redimenciona
-
             $blog->portada = $name_cover;
-            $blog->portada_thumb =  $name_thumb;
+            $blog->portada_thumb =  $name_full_thumb;
+        }
+
+        if($request->hasFile('imagen_listado') != false){ //image is not empty portada
+            $image_listado = $request->file('imagen_listado');
+            $name_listado = 'listado-'.time().'.'.$image_listado->getClientOriginalExtension();
+            $image_listado->move($this->path_blog, $name_listado);
+            $blog->listado = $name_listado;
         }
         $blog->save();
         return redirect('admin/blog');
@@ -112,20 +137,43 @@ class BlogAController extends Controller
 
         if($request->hasFile('portada') != false){ //image is not empty portada
             $image_cover = $request->file('portada');
+            /**
+             * crear nombres para las imagenes
+             */
+            $fullName =$image_cover->getClientOriginalName();
+            $extension =$image_cover->getClientOriginalExtension();
+            $onlyName = explode('.'.$extension,$fullName)[0];
+
+
+            $name_thumb = 'thumb_'.time().'.'.$onlyName;
+            $name_full_thumb = 'thumb_'.time().'.'.$fullName;
+
+            /**
+             * seccion para redimencionar imagen
+             */
 
             $name_cover = 'cover-'.time().'.'.$image_cover->getClientOriginalExtension();
-            $name_thumb = 'thumb-'.time().'.'.$image_cover->getClientOriginalExtension();
 
-            $image_cover->move($this->path_blog, $name_cover);
-            /* crear el thumb */
-            $image             = $this->path_blog.'/'.$name_cover;
-            $image_thumb       = $this->path_blog.'/'.$name_thumb;
+            $thumb = new upload($_FILES['portada']);
+            if ($thumb->uploaded) {
+                $thumb->file_new_name_body   = $name_thumb;
+                $thumb->image_resize         = true;
+                $thumb->image_x              = 300;
+                $thumb->process($this->path_blog.'/');
+            }
 
-            thumbnail($image, $image_thumb, 300,200); //ejecuta helper que redimenciona
 
             $blog->portada = $name_cover;
-            $blog->portada_thumb =  $name_thumb;
+            $blog->portada_thumb =  $name_full_thumb;
         }
+
+        if($request->hasFile('imagen_listado') != false){ //image is not empty portada
+            $image_listado = $request->file('imagen_listado');
+            $name_listado = 'listado-'.time().'.'.$image_listado->getClientOriginalExtension();
+            $image_listado->move($this->path_blog, $name_listado);
+            $blog->listado = $name_listado;
+        }
+
         $blog->update();
         return redirect('admin/blog');
     }
@@ -137,6 +185,16 @@ class BlogAController extends Controller
         @unlink($this->path_blog.'/'.$blog->portada_thumb);
         $blog->portada = '';
         $blog->portada_thumb = '';
+        $blog->update();
+        flash('Elemento borrado');
+        return redirect('admin/blog/'.$id.'/edit');
+    }
+
+    public function delete_listado($id)
+    {
+        $blog = Blog::find($id);
+        @unlink($this->path_blog.'/'.$blog->listado);
+        $blog->listado = '';
         $blog->update();
         flash('Elemento borrado');
         return redirect('admin/blog/'.$id.'/edit');
@@ -179,7 +237,8 @@ class BlogAController extends Controller
         $blog = Blog::find($id);
         @unlink($this->path_blog.'/'.$blog->portada);
         @unlink($this->path_blog.'/'.$blog->portada_thumb);
-        $blog->delete();    
+        @unlink($this->path_blog.'/'.$blog->listado);
+        $blog->delete();
         flash('Elemento borrado');
         return redirect('admin/blog/');
     }
