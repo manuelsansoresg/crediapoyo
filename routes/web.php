@@ -30,6 +30,9 @@ Route::get('/get_dependency/{state_id}', 'CotizadorController@get_dependency');
 Route::get('/terminos-y-condiciones', 'SeccionController@terminos');
 Route::get('/terminos-y-condiciones', 'SeccionController@terminos');
 Route::get('/aviso-de-privacidad', 'SeccionController@aviso');
+Route::get('/requisitos-de-contratacion', 'SeccionController@requisitos');
+Route::get('/buro', 'SeccionController@buro');
+Route::get( '/atencion-une', 'SeccionController@atencionUne');
 
 Route::post('/solicita_informacion', 'SeccionController@solicita_informacion');
 
@@ -42,4 +45,6 @@ Route::group(['prefix' => 'admin'], function (){
 
     Route::resource('slider', 'Admin\SliderController');
     Route::get('slider/icon/{id}/delete', 'Admin\SliderController@delete_icon');
+
+    Route::resource('cat', 'Admin\LegendCatController');
 });

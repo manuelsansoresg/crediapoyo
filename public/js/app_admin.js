@@ -104,7 +104,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\laragon\www\crediapoyo\resources\js\app_admin.js */"./resources/js/app_admin.js");
+module.exports = __webpack_require__(/*! c:\laragon\www\crediapoyo\resources\js\app_admin.js */"./resources/js/app_admin.js");
 
 
 /***/ })

@@ -185,7 +185,7 @@ function number_format(amount, decimals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\laragon\www\crediapoyo\resources\js\slider.js */"./resources/js/slider.js");
+module.exports = __webpack_require__(/*! c:\laragon\www\crediapoyo\resources\js\slider.js */"./resources/js/slider.js");
 
 
 /***/ })

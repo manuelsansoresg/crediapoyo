@@ -66,4 +66,20 @@ class SeccionController extends Controller
         $data = array('status' => 200);
         return response()->json($data);
     }
+
+    public function requisitos()
+    {
+        return view('requisitos');
+    }
+
+    public function buro()
+    {
+        return view('buro');
+    }
+
+    public function atencionUne()
+    {
+        return view('atencion_une');
+    }
+
 }

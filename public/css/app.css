@@ -11209,6 +11209,12 @@ a.text-dark:focus {
   width: 100%;
 }
 
+.footer__ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .barra-contacto {
   background-color: #003f8E;
   color: white;
@@ -11896,6 +11902,22 @@ a.text-dark:focus {
   }
 }
 
+.requisitos {
+  min-height: 100vh;
+}
+
+.requisitos__legend-black span {
+  color: black;
+}
+
+.buro {
+  min-height: 100vh;
+}
+
+.une {
+  min-height: 100vh;
+}
+
 .bg-blue {
   background-color: #003f8E;
 }
@@ -11925,5 +11947,11 @@ a.text-dark:focus {
 
 .ul-romano {
   list-style-type: upper-roman;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 

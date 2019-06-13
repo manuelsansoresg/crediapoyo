@@ -126,6 +126,12 @@ return [
             'icon'        => 'file',
             'label_color' => 'success',
         ],
+        [
+            'text'        => 'CAT',
+            'url'         => 'admin/cat',
+            'icon'        => 'file',
+            'label_color' => 'success',
+        ],
         /*'ACCOUNT SETTINGS',
         [
             'text' => 'Profile',

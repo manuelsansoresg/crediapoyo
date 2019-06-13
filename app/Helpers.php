@@ -6,6 +6,7 @@
 
 use App\Branch;
 use App\State;
+use App\LegendCat;
 
 function thumbnail($nombreimg, $thumb, $xmax, $ymax){
 
@@ -46,4 +47,8 @@ function state(){
 
 function dependency(){
     return Branch::all();
+}
+
+function legendCat(){
+    return LegendCat::first()->content;
 }

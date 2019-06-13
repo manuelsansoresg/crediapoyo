@@ -108,7 +108,7 @@
             </div>
             <div class="col-12 col-md-4">
                 <p class="my-0 cotizador__title-footer-leyenda">
-                    CAT Promedio <span class=" text-lowercase">77.20% SIN IVA, CALCULADO AL 31 DE MAYO DE 2018 PARA UN CRÉDITO SIMPLE A LIQUIDARSE EN <span id="semana_cat">24</span> PAGOS QUINCENALES. PARA FINES INFORMATIVOS.</span>
+                    {!! legendCat() !!}
 
                 </p>
                 <p>
