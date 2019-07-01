@@ -24,7 +24,7 @@
         <div class="row">
             <div class="box">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Album</h3>
+                    <h3 class="box-title">Blog</h3>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
@@ -33,11 +33,19 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Título</label>
-                            <input type="text" class="form-control" id="titulo" name="titulo">
+                            <input type="text" class="form-control" id="title" name="title">
                             @if($errors)
-                                <span class="text-danger"> {{$errors->first('titulo')}}</span>
+                                <span class="text-danger"> {{$errors->first('title')}}</span>
                             @endif
                         </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Meta</label>
+                            <input type="text" class="form-control" id="meta"  name="meta">
+                            @if($errors)
+                                <span class="text-danger"> {{$errors->first('meta')}}</span>
+                            @endif
+                        </div>
+
                         <div class="form-group">
                             <label for="exampleInputEmail1">Imágen de portada</label>
                             <input type="file" name="portada" class="form-control">

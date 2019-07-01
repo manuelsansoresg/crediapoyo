@@ -10862,9 +10862,9 @@ a.text-dark:focus {
 }
 
 .carousel-caption-afiliate__title {
-  font-family: "Hollaboi";
-  color: #40FC02;
-  font-size: 7.5em;
+  /* font-family: 'Hollaboi';
+   color: $green-menu;
+   font-size: 7.5em;*/
 }
 
 .carousel-caption-afiliate__content {
@@ -10874,14 +10874,14 @@ a.text-dark:focus {
 .carousel-caption-afiliate__subtitle {
   font-family: "Campton-Book";
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
 }
 
 .carousel-caption-afiliate__description {
   text-align: center;
   font-family: "Campton-Book";
-  font-size: 0.8em;
+  font-size: 1.2em;
 }
 
 .carousel-caption-blog {
@@ -10897,11 +10897,11 @@ a.text-dark:focus {
 }
 
 .carousel-caption-blog__subtitle {
-  font-family: "Hollaboi";
+  font-family: "Campton-ExtraBold";
   color: #40FC02;
-  font-size: 10em;
+  font-size: 4em;
   letter-spacing: 7px;
-  margin-top: -65px;
+  line-height: 60px;
 }
 
 .carousel-caption-blog__description {
@@ -10955,8 +10955,26 @@ a.text-dark:focus {
     width: 59%;
   }
 
+  carousel-caption-afiliate__subtitle {
+    font-size: 8px;
+  }
+
+  .carousel-caption-afiliate__content {
+    width: 49%;
+  }
+
+  .carousel-caption-afiliate {
+    bottom: 3%;
+    left: 4%;
+  }
+
+  .carousel-caption-afiliate__description {
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
   .carousel-caption-blog {
-    left: 45%;
+    left: 6%;
     bottom: -6%;
   }
 
@@ -10965,8 +10983,8 @@ a.text-dark:focus {
   }
 
   .carousel-caption-blog__subtitle {
-    font-size: 3em;
-    margin-top: -16px;
+    font-size: 1em;
+    line-height: 18px;
   }
 
   .carousel-caption-blog__description {
@@ -11332,6 +11350,11 @@ a.text-dark:focus {
   }
 }
 
+.soluciones-financieras__legales {
+  color: #003f8E;
+  font-family: "Campton-Bold";
+}
+
 .soluciones-financieras__fondo1 {
   background: url("/img/soluciones_financieras/Foto_1_SolucionesFinacieras.png") center center;
   width: 100%;
@@ -11634,6 +11657,22 @@ a.text-dark:focus {
   width: 30px;
 }
 
+.afiliate__title1 {
+  font-family: "Campton-Bold";
+  color: #003f8E;
+  font-size: 2.5rem;
+}
+
+.afiliate__subtitle1 a {
+  font-size: 1.6em;
+  color: #00CC3B;
+  text-decoration: underline;
+}
+
+.afiliate__subtitle1 a:hover {
+  color: #099F13;
+}
+
 .afiliate__title {
   font-family: "Campton-Bold";
   color: #003D92;
@@ -11658,6 +11697,17 @@ a.text-dark:focus {
   margin-left: 0;
   margin-top: 4px;
   margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .afiliate__title1 {
+    font-size: 1.5rem;
+  }
+
+  .afiliate__subtitle1 {
+    font-size: 1.6em;
+    color: #00CC3B;
+  }
 }
 
 .section-blog__content {
@@ -11721,7 +11771,7 @@ a.text-dark:focus {
 
   .blog-show__subtitle {
     font-size: 3em;
-    margin-top: -66px;
+    margin-top: -50px !important;
     line-height: 50px;
   }
 

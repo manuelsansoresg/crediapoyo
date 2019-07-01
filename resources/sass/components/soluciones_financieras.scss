@@ -1,5 +1,9 @@
 .soluciones-financieras {
 
+  &__legales{
+    color: $blue;
+    font-family: 'Campton-Bold';
+  }
   &__fondo1 {
     background: url("/img/soluciones_financieras/Foto_1_SolucionesFinacieras.png") center center;
     width: 100%;

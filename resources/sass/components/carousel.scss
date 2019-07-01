@@ -54,9 +54,9 @@
   bottom: 28%;
   text-align: unset;
   &__title{
-    font-family: 'Hollaboi';
+   /* font-family: 'Hollaboi';
     color: $green-menu;
-    font-size: 7.5em;
+    font-size: 7.5em;*/
   }
 
   &__content{
@@ -66,15 +66,13 @@
   &__subtitle{
     font-family: 'Campton-Book';
     color: $white;
-    font-size: 1.5em;
-
+    font-size: 1.2em;
     text-align: center;
   }
   &__description{
     text-align: center;
     font-family: 'Campton-Book';
-
-    font-size: 0.8em;
+    font-size: 1.2em;
   }
 }
 
@@ -88,11 +86,12 @@
     font-size: 2em;
   }
   &__subtitle{
-    font-family: 'Hollaboi';
+    font-family: 'Campton-ExtraBold';
     color: $green-menu;
-    font-size: 10em;
+    font-size: 4em;
     letter-spacing: 7px;
-    margin-top: -65px;
+    line-height: 60px;
+
   }
   &__description{
     font-family: 'Campton-Light';
@@ -147,15 +146,34 @@
       width: 59%;
     }
   }
+
+  carousel-caption-afiliate__subtitle{
+    font-size: 8px;
+  }
+
+  .carousel-caption-afiliate__content {
+    width: 49%;
+  }
+
+  .carousel-caption-afiliate {
+    bottom: 3%;
+    left: 4%;
+  }
+  .carousel-caption-afiliate__description {
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+
   .carousel-caption-blog {
-    left: 45%;
+    left: 6%;
     bottom: -6%;
     &__title{
       font-size: 0.7em;
     }
     &__subtitle{
-      font-size: 3em;
-      margin-top: -16px;
+      font-size: 1em;
+      line-height: 18px;
     }
     &__description{
       width: 94%;

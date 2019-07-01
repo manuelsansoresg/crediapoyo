@@ -36,6 +36,19 @@
         </div>
 
     </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-8 soluciones-financieras__legales">
+                <p>*Incumplir tus obligaciones te puede generar comisiones e intereses moratorios.</p>
+                <p>*Contratar créditos por arriba de tu capacidad de pago puede afectar tu historial.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12"></div>
+        </div>
+    </div>
     <div class="container-fluid d-none">
         <div class="row mt-5">
             <div class="col-12 col-md-6 soluciones-financieras__ventajas-left">

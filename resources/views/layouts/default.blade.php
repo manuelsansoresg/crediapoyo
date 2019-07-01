@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Crediapoyo-@yield('title') </title>
-
+    <meta name="description" content="@yield('meta-description')">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -88,8 +88,8 @@
                 <div class="col-12 text-center mt-n2">
                     <span class="barra-contacto__title">Comentarios y Sugerencias</span>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="tel:5578994922">Tel: 5578994922 | </a> </li>
-                        <li class="list-inline-item"><a href="mailto:crediapoyo.sep.gob@gmail.com">Mail: crediapoyo.sep.gob@gmail.com
+                        <li class="list-inline-item"><a href="tel:555160 5438">Tel: (55) 5160 5438 | </a> </li>
+                        <li class="list-inline-item"><a href="mailto:atencionaclientes@baracaf.mx">Mail: atencionaclientes@baracaf.mx
                             </a> </li>
                     </ul>
                 </div>

@@ -13,10 +13,10 @@
                 <ul class="mt-3">
                     <li>Ser trabajador de alguna de las dependencias de gobierno a las que brindamos el servicio.</li>
                     <li>2 últimos talones de pago.</li>
-                    <li>2 Comprobantes de Domicilio.</li>
+                    <li>2 Comprobantes de Domicilio. La vigencia es de máximo 90 días.</li>
                     <li>Identificación Oficial (INE, Cédula Profesional o Pasaporte vigentes).</li>
                     <li>CURP.</li>
-                    <li>Estado de Cuenta.</li>
+                    <li>Estado de Cuenta. La vigencia es de máximo 90 días.</li>
                 </ul>
                 <h5 class="font-weight-bold">
                     DEPENDENCIAS

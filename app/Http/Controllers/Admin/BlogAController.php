@@ -51,9 +51,11 @@ class BlogAController extends Controller
      */
     public function store(BlogRequest $request)
     {
+
         $blog = new Blog();
-        $blog->title = $request->titulo;
-        $blog->slug = Str::slug($request->titulo);
+        $blog->title = $request->title;
+        $blog->slug = Str::slug($request->title);
+        $blog->meta = $request->meta;
         $blog->contenido = $request->contenido;
 
         if($request->hasFile('portada') != false){ //image is not empty portada
@@ -132,14 +134,18 @@ class BlogAController extends Controller
     public function update(UpdateBlogRequest $request, $id)
     {
         $blog = Blog::find($id);
-        $blog->title = $request->titulo;
+        $blog->title = $request->title;
+        $blog->slug = Str::slug($request->title);
         $blog->contenido = $request->contenido;
+        $blog->meta = $request->meta;
 
         if($request->hasFile('portada') != false){ //image is not empty portada
             $image_cover = $request->file('portada');
             /**
              * crear nombres para las imagenes
              */
+
+
             $fullName =$image_cover->getClientOriginalName();
             $extension =$image_cover->getClientOriginalExtension();
             $onlyName = explode('.'.$extension,$fullName)[0];
@@ -153,7 +159,6 @@ class BlogAController extends Controller
              */
 
             $name_cover = 'cover-'.time().'.'.$image_cover->getClientOriginalExtension();
-
             $thumb = new upload($_FILES['portada']);
             if ($thumb->uploaded) {
                 $thumb->file_new_name_body   = $name_thumb;
@@ -162,7 +167,7 @@ class BlogAController extends Controller
                 $thumb->process($this->path_blog.'/');
             }
 
-
+            $image_cover->move($this->path_blog, $name_cover);
             $blog->portada = $name_cover;
             $blog->portada_thumb =  $name_full_thumb;
         }

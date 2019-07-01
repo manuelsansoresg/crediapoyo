@@ -6,6 +6,12 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class BlogRequest extends FormRequest
 {
+    public function attributes()
+    {
+        return [
+            'title' => 'titulo'
+        ];
+    }
     /**
      * Determine if the user is authorized to make this request.
      *
@@ -24,8 +30,9 @@ class BlogRequest extends FormRequest
     public function rules()
     {
         return [
-            'titulo' => 'required',
+            'title' => 'required|unique:blogs',
             'portada' => 'required',
+            'imagen_listado' => 'required',
             'contenido' => 'required'
         ];
     }

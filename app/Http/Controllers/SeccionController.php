@@ -39,8 +39,10 @@ class SeccionController extends Controller
 
     public function blog()
     {
+        $blog = Blog::orderBy('updated_at', 'desc')->first();
         $blogs = Blog::orderBy('created_at', 'desc')->paginate(20);
-        return view('blog', compact('blogs'));
+
+        return view('blog', compact('blogs', 'blog'));
     }
 
     public function show_blog($slug)

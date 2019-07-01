@@ -5,22 +5,22 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('img/diseccion_blog/Blog1.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('img/blog').'/'.$blog->portada }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption carousel-caption-blog ">
                     <div class="carousel-caption-blog__content">
-                        <div class="carousel-caption-blog__title">
+                        {{--<div class="carousel-caption-blog__title">
                             <span>Como viajar con poco</span>
-                        </div>
-                        <div class="carousel-caption-blog__subtitle">
-                            <span>Di<span class="text-white">ne</span>ro </span>
+                        </div>--}}
+                        <div class="carousel-caption-blog__subtitle mt-md-n4">
+                            <span> {{ Str::limit($blog->title, 30) }} </span>
                         </div>
 
-                        <div class="carousel-caption-blog__description mt-n2 mt-md-n4">
+                        <div class="carousel-caption-blog__description mt-2 mt-md-3">
                             <p class="my-0">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus architecto blanditiis deleniti deserunt dolor dolorum excepturi exercitationem impedit laboriosam necessitatibus.
+                                {{ strip_tags(Str::limit($blog->contenido, 400)) }}
                             </p>
                             <div class="d-block float-right">
-                                <a href="#" class="btn btn-outline-info carousel-caption-blog__btn carousel-caption-blog__btn-carousel">Ver más</a>
+                                <a href="/blog/{{ $blog->slug }}" class="btn btn-outline-info carousel-caption-blog__btn carousel-caption-blog__btn-carousel">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -37,11 +37,11 @@
                     <div style="height: 400px;" class="shadow mx-3 my-3 col-md-2">
 
                         <div class="row">
-                            <div class="col-md-12"  style="position: relative; background: url('{{ asset('img/diseccion_blog/Blog2.png') }}') no-repeat center center; height: 410px;  -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover; ">
+                            <div class="col-md-12"  style="position: relative; background: url('{{ asset('img/blog/').'/'.$blog->listado }}') no-repeat center center; height: 410px;  -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover; ">
                                 <div class="section-blog__content">
                                     <span class="section-blog__title">{{ Str::limit($blog->title, 30) }}</span>
                                     <p class="section-blog__description">
-                                        {!!  strip_tags(Str::limit($blog->contenido, 200))  !!}
+                                        {!!  strip_tags(Str::limit($blog->contenido, 300))  !!}
                                     </p>
                                     <div class="mt-4">
                                         <a href="/blog/{{ $blog->slug }}" class="btn btn-outline-info carousel-caption-blog__btn">Ver más</a>

@@ -27,26 +27,13 @@ class EstadoSucursalSeeder extends Seeder
 
         /* sucursales */
         $sucursal = new Branch();
-        $sucursal->state_id = 1;
-        $sucursal->sucursal = 'Gobierno';
-        $sucursal->mounth_rate = 3.30;
-        $sucursal->save();
-
-        $sucursal = new Branch();
-        $sucursal->state_id = 1;
-        $sucursal->sucursal = 'Salud';
+        $sucursal->state_id = 1; //chiapas
+        $sucursal->sucursal = 'SNTE 7';
         $sucursal->mounth_rate = 3.50;
         $sucursal->save();
 
         $sucursal = new Branch();
-        $sucursal->state_id = 1;
-        $sucursal->sucursal = 'Policias';
-        $sucursal->mounth_rate = 3.80;
-        $sucursal->save();
-
-
-        $sucursal = new Branch();
-        $sucursal->state_id = 2;
+        $sucursal->state_id = 2; //tamaulipas
         $sucursal->sucursal = 'Gobierno';
         $sucursal->mounth_rate = 3.30;
         $sucursal->save();
@@ -64,8 +51,8 @@ class EstadoSucursalSeeder extends Seeder
         $sucursal->save();
 
         $sucursal = new Branch();
-        $sucursal->state_id = 3;
-        $sucursal->sucursal = 'Morelia';
+        $sucursal->state_id = 3; //michoacan
+        $sucursal->sucursal = 'SNTE 18';
         $sucursal->mounth_rate = 3.30;
         $sucursal->save();
 

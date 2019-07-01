@@ -1,9 +1,10 @@
 @extends('layouts.default')
 @section('title', 'Blog')
+@section('meta-description', $blog->meta)
 
 @section('content')
     <div class="blog-show">
-        <div  style="background: url('{{ asset('img/diseccion_blog/Blog1.png') }}') no-repeat center center; width: 100%; height:90vh;  -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+        <div  style="background: url('{{ asset('img/blog').'/'.$blog->portada }}') no-repeat center center; width: 100%; height:90vh;  -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center blog-show__top-title">

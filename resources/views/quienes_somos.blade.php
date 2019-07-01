@@ -4,9 +4,9 @@
 
 @section('content')
 <div class="quienes-somos">
-    <div class="quienes-somos__video">
+   {{-- <div class="quienes-somos__video">
 
-    </div>
+    </div>--}}
     <div class="container">
         <div class="row mt-5">
             <div class="col-12 col-md-6 text-center  ">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="text-center quienes-somos__card-title">Misión</div>
                     <div class="quienes-somos__card-content">
-                        Lograr los sueños de nuestros clientes, alcanzaremos los de nosotros mismos. Cada miembro de nuestro equipo enfoca sus esfuerzos para que los sueños sigan existiendo y seguir creando posibilidades de éxito
+                        Lograr los sueños de nuestros clientes, alcanzaremos los de nosotros mismos. Cada miembro de nuestro equipo enfoca sus esfuerzos para que los sueños sigan existiendo y seguir creando posibilidades de éxito.
 
                     </div>
                 </div>

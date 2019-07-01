@@ -6,17 +6,18 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="{{ asset('img/afiliate/H1_Afiliate.png') }}" class="d-block w-100" alt="...">
-                <div class="carousel-caption carousel-caption-afiliate  d-none d-md-block">
+                <div class="carousel-caption carousel-caption-afiliate">
                     <div class="carousel-caption-afiliate__content">
                         <div class="carousel-caption-afiliate__title">
-                            <span class="text-white">Se</span> <span class="ml-3"> promotor</span>
+                            {{--<span class="text-white">Se</span> <span class="ml-3"> promotor</span>--}}
+                            <img class="img-fluid" src="{{ asset('img/afiliate/SePromotor.png') }}" alt="">
                         </div>
-                        <div class="carousel-caption-afiliate__subtitle mt-n2">
+                        <div class="carousel-caption-afiliate__subtitle mt-n0  mt-2 mt-md-2">
                             <p class="my-0">¡No te quedes fuera!</p>
                         </div>
                         <div class="carousel-caption-afiliate__description">
-                            <p class="my-0">
-                                ¡No te quedes fuera! Únete a la gran familia de Crediapoyo y haz realidad tus sueños cumpliendo los de los demás.
+                            <p class="my-0 mt-0 mt-md-2">
+                                Únete a la gran familia de Crediapoyo y haz realidad tus sueños cumpliendo los de los demás.
                             </p>
                         </div>
                     </div>
@@ -54,6 +55,11 @@
                         <li>Manejo adecuado del tiempo </li>
                     </ul>
                 </div>
+                <div class="col-12 text-center mt-5">
+                    <p class="afiliate__title1 pb-0 mb-0">Acude a tu sucursal más cercana y ¡afíliate!</p>
+                    <p class="afiliate__subtitle1 mt-0 pt-0"><a href="/contacto">Consulta nuestras sucursales</a></p>
+                </div>
+                <div class="w-100 pb-5"></div>
             </div>
             {{-- solicita tu credito   --}}
             @include('form_solicita_credito')

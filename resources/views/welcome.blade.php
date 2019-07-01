@@ -18,7 +18,11 @@
                         <?php  $cont = $cont +1 ;?>
                         {{-- {{ $cont }}--}}
                         <?php $active = ($cont == 1)? 'text-success' : ''; ?>
-                        <li class="list-inline-item"><a data-code="{{ $slider_all->id }}" class="item"><i id="" class="fas fa-circle fa-{{ $slider_all->id }}  {{ $active }}  " data=""></i></a> </li>
+                        <li class="list-inline-item">
+                            <a data-code="{{ $slider_all->id }}" class="item">
+                                <i id="" class="fas fa-circle fa-{{ $slider_all->id }}  {{ $active }}  " data=""></i>
+                            </a> 
+                        </li>
 
                     @endforeach
                 </ul>
@@ -230,7 +234,7 @@
                 <div class="col-12 col-md-6">
                     <div class="card card-ca">
 
-                        <div style="position: relative; background: url('{{ asset('img/Blog_1.png') }}')no-repeat center center; -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover; background-size: cover; height: 270px">
+                        <div style="position: relative; background: url('{{ asset('img/blog').'/'.$blog_destacado[0]->portada }}')no-repeat center center; -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover; background-size: cover; height: 270px">
                             <div class="blog__card-content-title">
                                 <p class="blog__card-title text-white">
                                     {{ $blog_destacado[0]->title }}
@@ -240,10 +244,10 @@
 
                         <div class="card-body shadow card-body-ca">
                             <div class="card-text mt-4 blog__content-text">
-                               {!! Str::limit($blog_destacado[0]->contenido, 620) !!}
+                               {!! Str::limit(strip_tags($blog_destacado[0]->contenido), 300 )!!}
                             </div>
                             <p>
-                                <a class="link-green float-right" >Leer Más</a>
+                                <a href="/blog/{{ $blog_destacado[0]->slug }}" class="link-green float-right" >Leer Más</a>
                             </p>
                         </div>
                     </div>
@@ -251,45 +255,53 @@
                 <div class="col-12 col-md-6 mt-3 mt-md-0 ">
                     {{-- noticia 2 derecha--}}
                     <div class="container">
+                        @if(isset($blog_destacado[1]))
                         <div class="row">
                             <div class="col-12 col-md-4 px-0">
                                 <div style="background: url('{{ asset('img/blog').'/'.$blog_destacado[1]->portada }}') no-repeat center center; -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover; background-size: cover; height: 250px">
                                 </div>
                             </div>
+
                             <div class="col-12 col-md-8 card  card-ca shadow">
                                 <div class="card-body">
                                     <h5 class="card-title blog__card-title2"> {{ $blog_destacado[1]->title }} </h5>
                                     <div class="card-text blog__content-small-text">
-                                        {!! Str::limit($blog_destacado[1]->contenido, 400) !!}
+                                        {!! Str::limit(strip_tags($blog_destacado[1]->contenido), 200) !!}
                                     </div>
                                     <div class="card-read-more">
-                                        <p><a class="link-green float-right" >Leer Más</a></p>
+                                        <p><a href="/blog/{{ $blog_destacado[1]->slug }}" class="link-green float-right" >Leer Más</a></p>
                                     </div>
 
                                 </div>
 
                             </div>
+
                         </div>
+                        @endif
                         {{-- /noticia 2 derecha--}}
                         {{-- noticia 3 derecha--}}
+                        @if(isset($blog_destacado[2]))
                         <div class="row mt-3">
                             <div class="col-12  col-md-4 px-0">
                                 <div style="background: url('{{ asset('img/blog').'/'.$blog_destacado[2]->portada }}') no-repeat center center; -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover; background-size: cover; height: 243px">
                                 </div>
                             </div>
+
                             <div class="col-12 col-md-8 card  card-ca shadow">
                                 <div class="card-body">
                                     <h5 class="card-title blog__card-title3"> {{ $blog_destacado[2]->title }} </h5>
                                     <div class="card-text blog__content-small2-text">
-                                        {!! Str::limit($blog_destacado[2]->contenido, 400) !!}
+                                        {!! Str::limit(strip_tags($blog_destacado[2]->contenido), 200) !!}
                                     </div>
                                     <div class="card-read-more">
-                                        <p><a class="link-green float-right" >Leer Más</a></p>
+                                        <p><a href="/blog/{{ $blog_destacado[2]->slug }}" class="link-green float-right" >Leer Más</a></p>
                                     </div>
 
                                 </div>
                             </div>
+
                         </div>
+                        @endif
                     </div>
                     {{-- /noticia 3 derecha--}}
                 </div>

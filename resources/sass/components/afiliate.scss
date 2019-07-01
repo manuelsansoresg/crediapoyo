@@ -2,6 +2,23 @@
   &__icon{
     width: 30px;
   }
+
+  &__title1{
+    font-family: "Campton-Bold";
+    color: $blue;
+    font-size: 2.5rem;
+  }
+
+  &__subtitle1 a{
+    font-size: 1.6em;
+    color: $green-carousel;
+    text-decoration: underline;
+  }
+
+  &__subtitle1 a:hover{
+    color: $green3;
+  }
+
   &__title{
     font-family: 'Campton-Bold';
     color: $blue-five;
@@ -27,4 +44,17 @@
     margin-bottom: 0;
   }
 
+}
+
+@include media-breakpoint-down(sm) {
+  .afiliate{
+    &__title1{
+      font-size: 1.5rem;
+    }
+
+    &__subtitle1{
+      font-size: 1.6em;
+      color: $green-carousel;
+    }
+  }
 }

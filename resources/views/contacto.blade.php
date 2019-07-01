@@ -27,13 +27,13 @@
                 <div class="col-12 col-md-8">
                     <ul class="contacto__ul">
                         <li>
-                            Tuxtla: Centro de Negocios Plaza Mirador oficina 4, Libramiento Norte Poniente, Col. Miravalle, Tuxtla, Gtz. Chiapas C.P. 29039 <span class="color-blue3">Teléfono: 01-961-617-5204</span>
+                            Tuxtla: Centro de Negocios Plaza Mirador oficina 4, Libramiento Norte Poniente, Col. Miravalle, Tuxtla, Gtz. Chiapas C.P. 29039 <p class="color-blue3">Teléfono: 01-961-617-5204</p>
                         </li>
                         <li>
-                            Tapachula: Av. Central No.162 entre 23 y 25 Pte. Col. Centro, Tapachula, Chiapas C.P. 30700 <span class="color-blue3">Teléfono: 01-962-642-7971</span>
+                            Tapachula: Av. Central No.162 entre 23 y 25 Pte. Col. Centro, Tapachula, Chiapas C.P. 30700 <p class="color-blue3">Teléfono: 01-962-642-7971</p>
                         </li>
                         <li>
-                            Palenque: Av. 20 de Noviembre S/N entre Abasolo e Independencia Col. Centro, Palenque, Chiapas C.P. 29960 <span class="color-blue3">Teléfono: 01-916-345-4277</span>
+                            Palenque: Av. 20 de Noviembre S/N entre Abasolo e Independencia Col. Centro, Palenque, Chiapas C.P. 29960 <p class="color-blue3">Teléfono: 01-916-345-4277</p>
 
                         </li>
                     </ul>
@@ -48,13 +48,13 @@
                 <div class="col-12 col-md-8">
                     <ul class="contacto__ul">
                         <li>
-                            Cd. Victoria: Calle Alberto Carrera Torres esq. con Matías S. Canales 513 Col. Centro, Cd. Victoria, Tamps C.P. 87000 <span class="color-blue3">Teléfono: 01-834-186-5574 y 01-834-185-3728</span>
+                            Cd. Victoria: Calle Alberto Carrera Torres esq. con Matías S. Canales 513 Col. Centro, Cd. Victoria, Tamps C.P. 87000 <p class="color-blue3">Teléfono: 01-834-186-5574 y 01-834-185-3728</p>
                         </li>
                         <li>
-                            Tampico: Av. Hidalgo 3602 Local B, Col. Las Flores Esq. Calle Gardenia, Dentro de la Gasolinera Tampico, Tamps. C.P. 89220 <span class="color-blue3">Teléfono: 01-833-561-9856 y 01-833-362-3078 </span>
+                            Tampico: Av. Hidalgo 3602 Local B, Col. Las Flores Esq. Calle Gardenia, Dentro de la Gasolinera Tampico, Tamps. C.P. 89220 <p class="color-blue3">Teléfono: 01-833-561-9856 y 01-833-362-3078 </p>
                         </li>
                         <li>
-                            Reynosa: Av. Heron Ramírez 545 B, Col. Rodríguez Reynosa, Tamaulipas C.P. 88630 <span class="color-blue3">Teléfono: 01-899-202-1722 </span>
+                            Reynosa: Av. Heron Ramírez 545 B, Col. Rodríguez Reynosa, Tamaulipas C.P. 88630 <p class="color-blue3">Teléfono: 01-899-202-1722 </p>
                         </li>
                     </ul>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="col-12 col-md-8">
                     <ul class="contacto__ul">
                         <li>
-                            Morelia y Zamora: Av. Siervo de la Nación 721, Col. Lomas del Valle, Morelia, Michoacán C.P. 58170 <span class="color-blue3"> Teléfono: 01-443-299-8459 </span>
+                            Morelia y Zamora: Av. Siervo de la Nación 721, Col. Lomas del Valle, Morelia, Michoacán C.P. 58170 <p class="color-blue3"> Teléfono: 01-443-299-8459 </p>
                         </li>
 
                     </ul>

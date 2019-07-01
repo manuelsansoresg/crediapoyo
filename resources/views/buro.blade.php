@@ -52,6 +52,9 @@
                         Sociedad Financiera de Objeto Múltiple, Entidad Regulada; para conocer la información de todo el sector deberá acceder
                         al sitio <a href="http://www.buro.gob.mx" target="_blank"></a>.
                     </p>
+                    <p>
+                        <a href="https://ifit.condusef.gob.mx/ifit/ft_general_final.php?idnc=25748&t=20&b=1" target="_blank">Consulta aquí</a>  &nbsp; IFIT - Buró de Entidades Financieras de Baracaf
+                    </p>
                 </div>
             </div>
         </div>
