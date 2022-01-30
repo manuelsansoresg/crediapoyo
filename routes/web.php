@@ -47,4 +47,7 @@ Route::group(['prefix' => 'admin'], function (){
     Route::get('slider/icon/{id}/delete', 'Admin\SliderController@delete_icon');
 
     Route::resource('cat', 'Admin\LegendCatController');
+
+    Route::resource('user', 'Admin\UserController');
+
 });

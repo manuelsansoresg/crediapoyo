@@ -20,6 +20,7 @@ class BlogAController extends Controller
     {
 
         $this->path_blog = './img/blog';
+        $this->middleware('auth');
     }
 
     /**

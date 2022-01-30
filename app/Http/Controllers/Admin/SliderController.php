@@ -14,7 +14,7 @@ class SliderController extends Controller
 
     public function __construct()
     {
-
+        $this->middleware('auth');
         $this->path_icon = './img/icon_slider';
     }
     /**

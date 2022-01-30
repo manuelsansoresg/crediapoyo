@@ -4,18 +4,16 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\LegendCat;
-use App\Http\Requests\CatRequest;
+use App\Http\Requests\UserEditRequest;
+use App\Http\Requests\UserRequest;
+use App\User;
 
-
-class LegendCatController extends Controller
+class UserController extends Controller
 {
-
     public function __construct()
     {
         $this->middleware('auth');
     }
-
     /**
      * Display a listing of the resource.
      *
@@ -23,9 +21,8 @@ class LegendCatController extends Controller
      */
     public function index()
     {
-        $legend = LegendCat::first();
-        
-        return view('cat.index', compact('legend'));
+        $users = User::all();
+        return view('user.index', compact('users'));
     }
 
     /**
@@ -35,7 +32,7 @@ class LegendCatController extends Controller
      */
     public function create()
     {
-        return view('cat.create');
+        return view('user.create');
     }
 
     /**
@@ -44,13 +41,12 @@ class LegendCatController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(CatRequest $request)
+    public function store(UserRequest $request)
     {
-        $legend_cat = new LegendCat( $request->except('_token') );
-        $legend_cat->save();
-
-        flash('Elemento guardado');
-        return redirect('admin/cat');
+        $user = new User($request->all(), ['except' => ['token', 'password']]);
+        $user->password = bcrypt($request->password);
+        $user->save();
+        return redirect('admin/user');
     }
 
     /**
@@ -72,8 +68,8 @@ class LegendCatController extends Controller
      */
     public function edit($id)
     {
-        $legend_cat = LegendCat::find($id);
-        return view('cat.edit', compact('legend_cat'));
+        $user = User::find($id);
+        return view('user.edit', compact('user'));
     }
 
     /**
@@ -83,15 +79,19 @@ class LegendCatController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(CatRequest $request, $id)
+    public function update(UserEditRequest $request, $id)
     {
-        $legend_cat = LegendCat::find($id);
-        $legend_cat->content = $request->content;
-        $legend_cat->update();
-
-        flash('Elemento guardado');
-        return redirect('admin/cat');
-        $legend_cat->update();
+        $user = User::find($id);
+        $user->name = $request->name;
+        $user->email = $request->email;
+        
+        if ($_POST['password'] != '') {
+            $user->password = bcrypt($request->password);
+        }
+        
+        $user->update();
+        flash('Elemento actualizado');
+        return redirect('admin/user');
     }
 
     /**
@@ -102,11 +102,9 @@ class LegendCatController extends Controller
      */
     public function destroy($id)
     {
-        $legend_cat = LegendCat::find($id);
-        
-        $legend_cat->delete();
-        
+        $user = User::find($id);
+        $user->delete();
         flash('Elemento borrado');
-        return redirect('admin/cat');
+        return redirect('admin/user');
     }
 }

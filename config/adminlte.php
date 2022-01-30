@@ -132,6 +132,12 @@ return [
             'icon'        => 'file',
             'label_color' => 'success',
         ],
+        [
+            'text'        => 'Usuarios',
+            'url'         => 'admin/user',
+            'icon'        => 'user',
+            'label_color' => 'success',
+        ],
         /*'ACCOUNT SETTINGS',
         [
             'text' => 'Profile',
